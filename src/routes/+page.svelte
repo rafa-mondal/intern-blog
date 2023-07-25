@@ -13,7 +13,7 @@
     <header>
         <div class=logo> 
             <a href="/">
-                <button class="home-button"> <img src="src/esri-logo.svg" alt=""/> </button>
+                <button class="home-button"> <img src="/images/esri-logo.svg" alt=""/> </button>
             </a>
             <div class="title-text"> Intern Blog </div>
         </div>
@@ -23,7 +23,7 @@
                 <!-- <img class="img" src="src/link.svg" alt=""> -->
             </div>
             <div class="link-align">
-                <img class="img" src="src/linkedin.svg" alt=""/>
+                <img class="img" src="/images/linkedin.svg" alt=""/>
                 <a href="https://www.linkedin.com/in/rafa-mondal-4a8899221/" target="_blank" rel="noreferrer noopener">LinkedIn</a>
             </div>
         </div>
@@ -31,7 +31,7 @@
     <body>
         <div class="intro-grid"> 
          
-            <div class="title-image"> <img src="src\intern.gif" class="img" alt=""> </div>
+            <div class="title-image"> <img src="/images/intern.gif" class="img" alt=""> </div>
             <div class="header-text"> 
                 <span> Rafa<br>Mondal’s<br>Software Internship<br>Summer 2023<br></span>
                 <span class="md-text">June 6th - August 25th</span>
@@ -39,15 +39,15 @@
         </div>
         <div class="tile-grid">
             <a href="/user-conference">
-                <button id="a" class="tile-button"> <img src="src/uc.png" class="img" alt=""> </button>
+                <button id="a" class="tile-button"> <img src="/images/uc.png" class="img" alt=""> </button>
             </a>
 
             <a href="/esri-in-an-hour">
-                <button id="b" class="tile-button"> <img src="src/esri-in-an-hour.png" class="img" alt=""> </button>
+                <button id="b" class="tile-button"> <img src="/images/esri-in-an-hour.png" class="img" alt=""> </button>
             </a>
 
             <a href="/esri-in-an-hour">
-                <button id="c" class="tile-button"> <img src="src/group-hackathon-pic.png" class="img" alt=""> </button>
+                <button id="c" class="tile-button"> <img src="/images/group-hackathon-pic.png" class="img" alt=""> </button>
             </a>
 
             <div id="one" class="tile-desc">
@@ -58,7 +58,7 @@
             <div id="two" class="tile-desc">
                 <span class="sm-text">Wednesdays, 11am-12pm MDT<br></span>
                 <span class="lg-text">Esri In an Hour<br></span>
-                <span class="sm-text">The largest GIS conference in the world, and a celebration of how GIS shapes the world<br></span>
+                <span class="sm-text">Weekly lectures presented by Esri employees on their work<br></span>
             </div>
             <div id="three" class="tile-desc">
                 <span class="sm-text">July 21st - July 23rd<br></span>
@@ -67,27 +67,27 @@
             </div> 
 
             
-            <button id="d" class="tile-button"> <img src="src/chhs.svg" class="img" alt=""> </button>
-            <button id="e" class="tile-button"> <img src="src/lattice.png" class="img" alt=""> </button>
+            <button id="d" class="tile-button"> <img src="/images/chhs.svg" class="img" alt=""> </button>
+            <button id="e" class="tile-button"> <img src="/images/lattice.png" class="img" alt=""> </button>
 
             <a href="/everline-us">
-                <button id="f" class="tile-button"> <img src="src/everline.svg" class="img" alt=""> </button>
+                <button id="f" class="tile-button"> <img src="/images/everline.svg" class="img" alt=""> </button>
             </a>
 
             <div id="four" class="tile-desc">
                 <span class="sm-text">June<br></span>
                 <span class="lg-text">California Health & Human Services<br></span>
-                <span class="sm-text">The largest GIS conference in the world, and a celebration of how GIS shapes the world<br></span>
+                <span class="sm-text">Dashboard to track strategic priority goals of CHHS <br></span>
             </div>
             <div id="five" class="tile-desc">
                 <span class="sm-text">Late June - Early July<br></span>
                 <span class="lg-text">Career Lattice Viewer<br></span>
-                <span class="sm-text">The largest GIS conference in the world, and a celebration of how GIS shapes the world<br></span>
+                <span class="sm-text">Internal tool to track Esri career progress and role responsibilities<br></span>
             </div>
             <div id="six" class="tile-desc">
                 <span class="sm-text">Early June<br></span>
                 <span class="lg-text">Everline US<br></span>
-                <span class="sm-text">The largest GIS conference in the world, and a celebration of how GIS shapes the world<br></span>
+                <span class="sm-text">Geofencing logic development of a pipeline inspector tracking system<br></span>
             </div> 
 
         </div>
