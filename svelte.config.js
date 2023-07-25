@@ -10,7 +10,7 @@ const config = {
     kit: {
         adapter: adapter(),
 		paths: {
-            base: process.env.NODE_ENV === 'production' ? '/rafa-mondal.github.io/intern-blog/' : '',
+            base: process.env.NODE_ENV === 'production' ? '/rafa-mondal.github.io/intern-blog' : '',
         }
     }
 };
