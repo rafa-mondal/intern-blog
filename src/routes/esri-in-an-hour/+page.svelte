@@ -66,6 +66,7 @@
             padding-left: 6rem;
             padding-right: 6rem;
             /*padding-top: 2rem;*/
+            text-align: center;
         }
 
         & footer {

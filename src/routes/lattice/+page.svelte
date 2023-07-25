@@ -15,7 +15,7 @@
             <a href="/">
                 <button class="home-button"> <img src="/images/esri-logo.svg" alt=""/> </button>
             </a>
-            <div class="title-text"> Everline US </div>
+            <div class="title-text"> User Conference 2023 </div>
         </div>
         <div class="links">
             <div class="link-align">

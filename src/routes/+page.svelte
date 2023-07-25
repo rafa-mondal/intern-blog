@@ -2,11 +2,7 @@
 <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Jura" />
 
 <script type="text/javascript">
-    // document.getElementById("myButton").onclick = function () {
-    //     location.href = "www.yoursite.com";
-    // };
 
-    // https://www.npmjs.com/package/svelte-routing
 </script>
 
 <div class="page"> 
@@ -20,7 +16,6 @@
         <div class="links">
             <div class="link-align">
                 <a href="https://storymaps.arcgis.com/stories/69e37ee9b86748c1bfbd3b017b592db0" target="_blank" rel="noreferrer noopener">"About me" Storymap</a>
-                <!-- <img class="img" src="src/link.svg" alt=""> -->
             </div>
             <div class="link-align">
                 <img class="img" src="/images/linkedin.svg" alt=""/>
@@ -28,7 +23,7 @@
             </div>
         </div>
     </header>
-    <body>
+    <div class="body">
         <div class="intro-grid"> 
          
             <div class="title-image"> <img src="/images/intern.gif" class="img" alt=""> </div>
@@ -65,10 +60,14 @@
                 <span class="lg-text">Intern Hackathon<br></span>
                 <span class="sm-text">Esri's 8th annual Weekend of Innovation, where interns work together in teams to build a product using GIS<br></span>
             </div> 
-
             
-            <button id="d" class="tile-button"> <img src="/images/chhs.svg" class="img" alt=""> </button>
-            <button id="e" class="tile-button"> <img src="/images/lattice.png" class="img" alt=""> </button>
+            <a href="/chhs">
+                <button id="d" class="tile-button"> <img src="/images/chhs.svg" class="img" alt=""> </button>
+            </a>
+
+            <a href="/lattice">
+                <button id="e" class="tile-button"> <img src="/images/lattice.png" class="img" alt=""> </button>
+            </a>
 
             <a href="/everline-us">
                 <button id="f" class="tile-button"> <img src="/images/everline.svg" class="img" alt=""> </button>
@@ -91,7 +90,7 @@
             </div> 
 
         </div>
-    </body>
+    </div>
     <footer>thank you for reading :)<br><br>contact: rafa.audrija.mondal@gmail.com</footer> 
 </div>
 
@@ -117,21 +116,17 @@
             flex-direction: row;
             align-items: center;
             justify-content: space-between;
-
-            /*background-color: rgba(221, 221, 221, 50);*/
             font-size: 22px;
         }
 
-        & body {
+        & .body {
             padding-top: 1rem;
             padding-left: 6rem;
             padding-right: 6rem;
-            /*padding-top: 2rem;*/
         }
 
         & footer {
             height: 10%;
-            /*background-color: rgba(221, 221, 221, 50);*/
             text-align: center;
             color: #3C4770;
             padding: 1rem;
@@ -179,7 +174,6 @@
 
     .title-image { 
         grid-area: titleImage;
-        /*background-color: rgba(221, 221, 221, 50);*/
     }
 
     .img {
@@ -208,7 +202,6 @@
         grid-area: titleText;
         font-size: 60px;
         color: #3C4770;
-        /*background-color: rgba(221, 221, 221, 50);*/
     }
 
     .title-text { 
@@ -216,20 +209,7 @@
         font-size: 70px;
         color: #3C4770;
         padding-left: 1rem;
-        /* background-color: rgba(221, 221, 221, 50); */
     }
-
-    #a { grid-area: a; }
-
-    #b { grid-area: b; }
-
-    #c { grid-area: c; }
-
-    /*#d { grid-area: d; }
-
-    #e { grid-area: e; }
-
-    #f { grid-area: f; }*/
 
     .home-button {
         border: none;
@@ -252,8 +232,6 @@
         border-radius: 20px;
         aspect-ratio: 1.24;
 
-        /*transition: border-width 0.6s linear;*/
-
         &:hover {
             cursor: pointer;
             border: solid transparent;
@@ -261,7 +239,6 @@
     }
 
     .tile-desc {
-        /*background-color: rgba(221, 221, 221, 50);*/
         aspect-ratio: 1.95;
         padding: 1rem;
     }
