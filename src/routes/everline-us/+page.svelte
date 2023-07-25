@@ -13,7 +13,7 @@
     <header>
         <div class=logo> 
             <a href="/">
-                <button class="home-button"> <img src="src/esri-logo.svg" alt=""/> </button>
+                <button class="home-button"> <img src="/images/esri-logo.svg" alt=""/> </button>
             </a>
             <div class="title-text"> Everline US </div>
         </div>
@@ -23,13 +23,13 @@
                 <!-- <img class="img" src="src/link.svg" alt=""> -->
             </div>
             <div class="link-align">
-                <img class="img" src="src/linkedin.svg" alt=""/>
+                <img class="img" src="/images/linkedin.svg" alt=""/>
                 <a href="https://www.linkedin.com/in/rafa-mondal-4a8899221/" target="_blank" rel="noreferrer noopener">LinkedIn</a>
             </div>
         </div>
     </header>
     <body>
-       
+        Stay tuned!
     </body>
     <footer>thank you for reading :)<br><br>contact: rafa.audrija.mondal@gmail.com</footer>
 </div>
