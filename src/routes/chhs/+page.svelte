@@ -28,9 +28,9 @@
             </div>
         </div>
     </header>
-    <body>
+    <div class="body">
        Stay tuned!
-    </body>
+    </div>
     <footer>thank you for reading :)<br><br>contact: rafa.audrija.mondal@gmail.com</footer>
 </div>
 
@@ -61,7 +61,7 @@
             font-size: 22px;
         }
 
-        & body {
+        & .body {
             padding-top: 1rem;
             padding-left: 6rem;
             padding-right: 6rem;
