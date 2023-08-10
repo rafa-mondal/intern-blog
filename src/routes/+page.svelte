@@ -33,8 +33,9 @@
             </div>
         </div>
         <div class="tile-grid"> 
-            <a href="/chhs">
-                <button id="d" class="tile-button"> <img src="/images/chhs.svg" class="img" alt=""> </button>
+
+            <a href="/wapo-maps">
+                <button id="i" class="tile-button"> <img src="/images/wapo-map.png" class="img" alt=""> </button>
             </a>
 
             <a href="/lattice">
@@ -45,11 +46,12 @@
                 <button id="f" class="tile-button"> <img src="/images/everline.svg" class="img" alt=""> </button>
             </a>
 
-            <div id="four" class="tile-desc">
-                <span class="sm-text">June<br></span>
-                <span class="lg-text">California Health & Human Services<br></span>
-                <span class="sm-text">Dashboard to track strategic priority goals of CHHS <br></span>
-            </div>
+            <div id="nine" class="tile-desc">
+                <span class="sm-text">Early June<br></span>
+                <span class="lg-text">Washington Post Scripting<br></span>
+                <span class="sm-text">Geofencing logic development of a pipeline inspector tracking system<br></span>
+            </div> 
+            
             <div id="five" class="tile-desc">
                 <span class="sm-text">Late June - Early July<br></span>
                 <span class="lg-text">Career Lattice Viewer<br></span>
@@ -69,8 +71,8 @@
                 <button id="h" class="tile-button"> <img src="/images/charlotte-timeline.png" class="img" alt=""> </button>
             </a>
 
-            <a href="/wapo-maps">
-                <button id="i" class="tile-button"> <img src="/images/wapo-map.png" class="img" alt=""> </button>
+            <a href="/chhs">
+                <button id="d" class="tile-button"> <img src="/images/chhs.svg" class="img" alt=""> </button>
             </a>
 
             <div id="seven" class="tile-desc">
@@ -83,11 +85,12 @@
                 <span class="lg-text">City of Charlotte TimelineJS<br></span>
                 <span class="sm-text">Internal tool to track Esri career progress and role responsibilities<br></span>
             </div>
-            <div id="nine" class="tile-desc">
-                <span class="sm-text">Early June<br></span>
-                <span class="lg-text">Washington Post<br></span>
-                <span class="sm-text">Geofencing logic development of a pipeline inspector tracking system<br></span>
-            </div> 
+            <div id="four" class="tile-desc">
+                <span class="sm-text">June<br></span>
+                <span class="lg-text">California Health & Human Services<br></span>
+                <span class="sm-text">Dashboard to track strategic priority goals of CHHS <br></span>
+            </div>
+           
 
             <a href="/user-conference">
                 <button id="a" class="tile-button"> <img src="/images/uc.png" class="img" alt=""> </button>
