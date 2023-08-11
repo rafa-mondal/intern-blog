@@ -42,9 +42,10 @@
                 <button id="e" class="tile-button"> <img src="/images/lattice.png" class="img" alt=""> </button>
             </a>
 
-            <a href="/everline-us">
-                <button id="f" class="tile-button"> <img src="/images/everline.svg" class="img" alt=""> </button>
+            <a href="/chhs">
+                <button id="d" class="tile-button"> <img src="/images/chhs.svg" class="img" alt=""> </button>
             </a>
+            
 
             <div id="nine" class="tile-desc">
                 <span class="sm-text">Early June<br></span>
@@ -57,11 +58,12 @@
                 <span class="lg-text">Career Lattice Viewer<br></span>
                 <span class="sm-text">Internal tool to track Esri career progress and role responsibilities<br></span>
             </div>
-            <div id="six" class="tile-desc">
-                <span class="sm-text">Early June<br></span>
-                <span class="lg-text">Everline US<br></span>
-                <span class="sm-text">Geofencing logic development of a pipeline inspector tracking system<br></span>
-            </div> 
+            <div id="four" class="tile-desc">
+                <span class="sm-text">June<br></span>
+                <span class="lg-text">California Health & Human Services<br></span>
+                <span class="sm-text">Dashboard to track strategic priority goals of CHHS <br></span>
+            </div>
+            
 
             <a href="/pothole">
                 <button id="g" class="tile-button"> <img src="/images/pothole.png" class="img" alt=""> </button>
@@ -71,8 +73,8 @@
                 <button id="h" class="tile-button"> <img src="/images/charlotte-timeline.png" class="img" alt=""> </button>
             </a>
 
-            <a href="/chhs">
-                <button id="d" class="tile-button"> <img src="/images/chhs.svg" class="img" alt=""> </button>
+            <a href="/everline-us">
+                <button id="f" class="tile-button"> <img src="/images/everline.svg" class="img" alt=""> </button>
             </a>
 
             <div id="seven" class="tile-desc">
@@ -85,11 +87,11 @@
                 <span class="lg-text">City of Charlotte TimelineJS<br></span>
                 <span class="sm-text">Internal tool to track Esri career progress and role responsibilities<br></span>
             </div>
-            <div id="four" class="tile-desc">
-                <span class="sm-text">June<br></span>
-                <span class="lg-text">California Health & Human Services<br></span>
-                <span class="sm-text">Dashboard to track strategic priority goals of CHHS <br></span>
-            </div>
+            <div id="six" class="tile-desc">
+                <span class="sm-text">Early June<br></span>
+                <span class="lg-text">Everline US<br></span>
+                <span class="sm-text">Geofencing logic development of a pipeline inspector tracking system<br></span>
+            </div> 
            
 
             <a href="/user-conference">
