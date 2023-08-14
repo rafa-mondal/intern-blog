@@ -73,14 +73,12 @@
         &emsp;&emsp;✿ SPNav only shows current SP on page<br>
         &emsp;&emsp;✿ IG Nav is removed entirely<br>
         &emsp;✤ Removed “CalHHS Equity Dashboard” link<br>
-        &emsp;✤ Added appropriate page breaks to Objective Cards (shouldn’t be split in the middle)<br>
+        &emsp;✤ Added appropriate page breaks to Objective Cards (shouldn't be split in the middle)<br>
         &emsp;✤ Removed extraneous buttons (print button, jump to top button)<br>
        </div>
        <div class='md-text'> Unique Challenges</div>
        <div class='sm-text'> Svelte packages HTML, CSS, and JavaScript into one framework. I had some prior experience working with HTML, CSS, and JS, so understanding how Svelte wired them all together took a bit of time to fully understand. After working on this project, I became really comfortable with Svelte and even chose it as my development framework for the Intern Hackathon later on in the internship (and for this Intern Blog!)</div>
-       <div class='sm-text'> Regarding the print style sheet, it’s important to understand that people interact with paper and digital interfaces very differently. For example, I had to remove any extraneous buttons or links that would render obsolete on paper and convert a “dark mode” web app into a “light mode” print sheet to conserve ink. On the web app, the navigation bar toggled between different impact goals which display on the page one at a time—this presented a challenge since the print layout requires all information to be laid out at once. I decided it was best to remove the Strategic Priority Goals navigation bar, since it didn’t have function on paper and took up a lot of space. For the Impact Goals navigation bar, I removed it and worked in coordination with another team member to display all the goals at a time in lieu of toggling a navigation bar. A final challenge of designing a print style sheet is that you can’t open it in the browser and inspect elements. This was a bit of barrier in fully understanding the layout, but frequent checks and intuition helped me deliver the final design phase.</div>
-       <div class='sm-text'> Both tasks focused on polishing an already built app, so a lot of my work was on front-end styling. This meant most of my work was done in CSS, or technically a spin-off of CSS, SASS (Syntactically Awesome Style Sheets) which was used in this project. I learn best by doing, so going in blind for this task was intimidating, but also incredibly exciting.</div>
-       <div class='md-text'> Special Thanks</div>
+       <div class='sm-text'> Regarding the print style sheet, it's important to understand that people interact with paper and digital interfaces very differently. For example, I had to remove any extraneous buttons or links that would render obsolete on paper and convert a “dark mode” web app into a “light mode” print sheet to conserve ink. On the web app, the navigation bar toggled between different impact goals which display on the page one at a time—this presented a challenge since the print layout requires all information to be laid out at once. I decided it was best to remove the Strategic Priority Goals navigation bar, since it didn't have function on paper and took up a lot of space. For the Impact Goals navigation bar, I removed it and worked in coordination with another team member to display all the goals at a time in lieu of toggling a navigation bar. A final challenge of designing a print style sheet is that you can't open it in the browser and inspect elements. This was a bit of barrier in fully understanding the layout, but frequent checks and intuition helped me deliver the final design phase.</div>
        <div class='sm-text'> Working alongside the exceedingly impressive and creative Lillie made working on this task extremely rewarding. Whether it was answering a small question, or even going classroom mode and pulling out a whiteboard to give a CSS class application crash course, I always felt supported throughout the project. Special thanks to Lillie Bahrami! </div>
     </div>
     <footer>thank you for reading :)<br><br>contact: rafa.audrija.mondal@gmail.com</footer>
@@ -168,12 +166,6 @@
         grid-area: "img";
         height: 80%;
         border-radius: 20px;
-    }
-
-    .lg-text {
-        font-size: 32px;
-        font-weight: 600;
-        color: #3C4770;
     }
 
     .md-text {

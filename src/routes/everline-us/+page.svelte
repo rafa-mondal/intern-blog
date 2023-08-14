@@ -30,7 +30,7 @@
         <div class='sm-text'>
             For this project, I helped configure the logic of the inspection algorithm with consideration to geoprocessing functions provided in ArcGIS Pro. The goal was to determine whether a pipeline inspection was valid based on an inspector's location as they traveled along a pipeline. If the inspector remained relatively on track, with consideration to some other parameters, the inspection was considered valid.
         </div>
-        <div class='md-text'> The Process </div>
+        <div class='md-text'> Logic Development </div>
         <div class='sm-text'>
             The client allowed a lot of freedom in developing a solution, so long as it followed a couple of provided parameters. This freedom meant that I had a lot of flexibility, but that I also had to infer some things on my own. For example: how do I determine if an inspector is “close enough” to the route? The easiest way to do this would be to create a geofence, which is bounded from the centerline from a certain configurable distance, equidistant from the right and left of the pipe. I could then make use of geometry.contains() in ArcGIS Pro to determine whether or not the inspector's location fell within that geofence. Here are some notes I made while constructing the logic for the program:
         </div>
@@ -45,13 +45,17 @@
         <img class="img" src="/images/everline-code.png" alt=""/>
         <div class='sm-text'>
             Some edge cases to consider were:<br>
-            1)	What if there was an obstacle in the way that affected the inspector’s path?<br>
-            2)	What if the inspector forgets to turn off the app? (dwell)<br>
-            3)	What if there are inaccuracies in the GPS data tracking inspector location?
+            &emsp;1)&emsp;What if there was an obstacle in the way that affected the inspector’s path?<br>
+            &emsp;2)&emsp;What if the inspector forgets to turn off the app? (dwell)<br>
+            &emsp;3)&emsp;What if there are inaccuracies in the GPS data tracking inspector location?
         </div>
+        <div class='sm-text'> In case 1, obstacles could be determined over time if an inspector's path always fell outside the geofence in a certain pattern, at a certain location. Once obstacles are detected and confirmed, this will be accounted for when determining if the inspector's path was valid or not. Another approach would be to track the inspector's elevation as well (z-axis) which would be another indicator that there is some obstruction on the path. For case 2, we can turn off location and stop collecting data points after the inspector is a certain, configurable distance away from the end of the pipeline. This way a large amount of points falling outside the geofence doesn't affect the validity of the inspection. Regarding case 3, we can implement outlier detection and ensure the GPS technology used is standardized across all devices.</div>
+        <div class='md-text'> Implementation </div>
         <div class='sm-text'>
-            After the initial logic had been approved, I was able to work with the incredibly intelligent and talented JP Stupfel on the deliverable. We scheduled a pair programming session to create both a server-side and client-ride rendered deliverable, from which the client would choose which to implement based on their internal infrastructure and needs. Below is an example of the CodePen we worked on together:
+            After the initial logic had been approved, I was able to work with the incredibly intelligent and talented JP Stupfel on the deliverable. We scheduled a pair programming session to create both a server-side and client-ride rendered deliverable, from which the client would choose which to implement based on their internal infrastructure and needs. Below is an example of the CodePen we worked on together which followed the validity algorithm outlined above:
         </div>
+        <div class='md-text'> Special thanks </div>
+        <div class='sm-text'> Special thanks to JP Stupfel for being so helpful and resourceful during the implementation process! He had taken the liberty of working through both the client-side and server-side implementations in his own time which sped along the process of handing off the deliverable to the client.</div>
     </div>
     <footer>thank you for reading :)<br><br>contact: rafa.audrija.mondal@gmail.com</footer>
 </div>
@@ -96,22 +100,6 @@
         }
     }
 
-    .grid {
-        display: grid;
-        grid-gap: 2rem;
-        
-        grid-template-areas: "text tile";
-        
-        grid-template-columns: repeat(2, 1fr);
-        grid-template-rows: 1fr;
-    } 
-
-    .tile {
-        border-radius: 20px;
-        height: 80%;
-        padding: 2rem;
-    }
-
     .logo { display: flex; }
 
     .links {
@@ -131,14 +119,6 @@
         height: 100%;
         border-radius: 20px;
         
-    }
-
-    .code-block {
-        font-family: 'Courier New';
-        font-size: 14px;
-        padding: 2rem;
-        width: 60%;
-        background-color: rgba(230, 230, 230);
     }
 
     .sm-text {
