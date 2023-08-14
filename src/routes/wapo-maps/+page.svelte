@@ -26,9 +26,9 @@
         </div>
     </header>
     <div class="body">
-       <div class='sm-text'> 
-        Stay tuned :)
-       </div>
+        <div class='md-text'> Overview </div>
+        <div class='md-text'> Data Parsing </div>
+        <div class='md-text'> Generating Graphics </div>
     </div>
     <footer>thank you for reading :)<br><br>contact: rafa.audrija.mondal@gmail.com</footer>
 </div>
@@ -103,6 +103,7 @@
     .md-text {
         font-size: 44px;
         color: #3C4770;
+        text-align: start;
     }
 
     .sm-text {

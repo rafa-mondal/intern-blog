@@ -28,17 +28,19 @@
     <div class="body">
         <div class='md-text'> Overview </div>
         <div class='sm-text'>
-            For this project, I helped configure the logic of the inspection algorithm with consideration to geoprocessing functions provided in ArcGIS Pro. The goal was to determine whether a pipeline inspection was valid based on tracking an inspector’s location as they went along the pipeline. If the inspector remained relatively on track, with consideration to some other parameters, the inspection was considered valid.
+            For this project, I helped configure the logic of the inspection algorithm with consideration to geoprocessing functions provided in ArcGIS Pro. The goal was to determine whether a pipeline inspection was valid based on an inspector's location as they traveled along a pipeline. If the inspector remained relatively on track, with consideration to some other parameters, the inspection was considered valid.
         </div>
         <div class='md-text'> The Process </div>
         <div class='sm-text'>
-            The client allowed a lot of freedom in developing a solution, so long as it followed a couple of provided parameters. This freedom meant that I had a lot of flexibility, but that I also had to infer some things on my own. For example: how do I determine if an inspector is “close enough” to the route? The easiest way to do this would be to create a geofence, which is bounded from the centerline from a certain configurable distance, equidistant from the right and left of the pipe. I could then make use of geometry.contains() in ArcGIS Pro to determine whether or not the inspector’s location fell within that geofence. Here are some notes I made while constructing the logic for the program.
+            The client allowed a lot of freedom in developing a solution, so long as it followed a couple of provided parameters. This freedom meant that I had a lot of flexibility, but that I also had to infer some things on my own. For example: how do I determine if an inspector is “close enough” to the route? The easiest way to do this would be to create a geofence, which is bounded from the centerline from a certain configurable distance, equidistant from the right and left of the pipe. I could then make use of geometry.contains() in ArcGIS Pro to determine whether or not the inspector's location fell within that geofence. Here are some notes I made while constructing the logic for the program:
         </div>
         <img class="img" src="/images/everline-notes.png" alt=""/>
+        <div class = "caption"> Word Document planning implementation methods </div>
         <img class="img" src="/images/everline-paper.jpg" alt=""/>
+        <div class = "caption"> Jotting down thoughts on defining data structure, use of ArcGIS Pro geoprocessing tools </div>
 
         <div class='sm-text'>
-            The following is a pseudocode implementation of Method #1
+            The following is a partial pseudocode implementation of Method #1
         </div>
         <img class="img" src="/images/everline-code.png" alt=""/>
         <div class='sm-text'>
@@ -152,6 +154,13 @@
         color: #3C4770;
         padding: 2rem;
         text-align: start;
+    }
+
+    .caption {
+        font-size: 22px;
+        color: #3C4770;
+        padding: 2rem;
+        text-align: center;
     }
 
     .title-text { 
