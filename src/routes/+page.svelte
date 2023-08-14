@@ -15,6 +15,7 @@
         </div>
         <div class="links">
             <div class="link-align">
+                <!-- <img class="img" src="/images/storymap.png" alt=""/> -->
                 <a href="https://storymaps.arcgis.com/stories/69e37ee9b86748c1bfbd3b017b592db0" target="_blank" rel="noreferrer noopener">"About me" Storymap</a>
             </div>
             <div class="link-align">
@@ -43,7 +44,7 @@
             </a>
 
             <a href="/chhs">
-                <button id="d" class="tile-button"> <img src="/images/chhs.svg" class="img" alt=""> </button>
+                <button id="d" class="tile-button"> <img src="/images/chhs-pink.png" class="img" alt=""> </button>
             </a>
             
 

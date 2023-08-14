@@ -15,7 +15,7 @@
             <a href="/">
                 <button class="home-button"> <img src="/images/esri-logo.svg" alt=""/> </button>
             </a>
-            <div class="title-text"> Esri in an Hour </div>
+            <div class="title-text"> Calite-based Web Component </div>
         </div>
         <div class="links">
             <div class="link-align">
@@ -29,7 +29,7 @@
         </div>
     </header>
     <div class="body">
-        Stay tuned!
+        <img class="img" src="/images/calcite-overview.png" alt=""/>
     </div>
     <footer>thank you for reading :)<br><br>contact: rafa.audrija.mondal@gmail.com</footer>
 </div>
