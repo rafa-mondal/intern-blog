@@ -2,11 +2,8 @@
 <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Jura" />
 
 <script type="text/javascript">
-    // document.getElementById("myButton").onclick = function () {
-    //     location.href = "www.yoursite.com";
-    // };
-
-    // https://www.npmjs.com/package/svelte-routing
+    import descriptions from '../../../src/descriptions.json';
+    const wapo_description = descriptions
 </script>
 
 <div class="page"> 
@@ -29,7 +26,9 @@
         </div>
     </header>
     <div class="body">
-       Stay tuned!
+       <div class='sm-text'> 
+        Stay tuned :)
+       </div>
     </div>
     <footer>thank you for reading :)<br><br>contact: rafa.audrija.mondal@gmail.com</footer>
 </div>
@@ -56,8 +55,6 @@
             flex-direction: row;
             align-items: center;
             justify-content: space-between;
-
-            /*background-color: rgba(221, 221, 221, 50);*/
             font-size: 22px;
         }
 
@@ -71,7 +68,6 @@
 
         & footer {
             height: 10%;
-            /*background-color: rgba(221, 221, 221, 50);*/
             text-align: center;
             color: #3C4770;
             padding: 1rem;
@@ -90,36 +86,6 @@
     .link-align {
         display: flex;
         align-items: center;
-    }
-
-    .intro-grid {
-        display: grid;
-        grid-gap: 2rem;
-        
-        grid-template-areas: "titleImage titleImage titleText";
-        
-        grid-template-columns: repeat(3, 1fr);
-        grid-template-rows: 1fr;
-    } 
-
-    .tile-grid {
-        display: grid;
-        grid-gap: 2rem;
-        
-        padding-top: 3rem;
-        padding-bottom: 2rem;
-
-        grid-template-areas: 
-            "a   b   c"
-            "one two three";
-
-        grid-template-columns: repeat(3, 1fr);
-        grid-template-rows: 1fr 0.6fr;
-    }
-
-    .title-image { 
-        grid-area: titleImage;
-        /*background-color: rgba(221, 221, 221, 50);*/
     }
 
     .img {
@@ -142,6 +108,7 @@
     .sm-text {
         font-size: 22px;
         color: #3C4770;
+        text-align: start;
     }
 
     .header-text { 
@@ -159,18 +126,6 @@
         /* background-color: rgba(221, 221, 221, 50); */
     }
 
-    #a { grid-area: a; }
-
-    #b { grid-area: b; }
-
-    #c { grid-area: c; }
-
-    /*#d { grid-area: d; }
-
-    #e { grid-area: e; }
-
-    #f { grid-area: f; }*/
-
     .home-button {
         border: none;
         padding: none;
@@ -184,25 +139,5 @@
             cursor: pointer;
             transform: rotate(360deg);
         }  
-    }
-
-    .tile-button {
-        background: none;
-        border: none;
-        border-radius: 20px;
-        aspect-ratio: 1.24;
-
-        /*transition: border-width 0.6s linear;*/
-
-        &:hover {
-            cursor: pointer;
-            border: solid transparent;
-        }
-    }
-
-    .tile-desc {
-        /*background-color: rgba(221, 221, 221, 50);*/
-        aspect-ratio: 1.95;
-        padding: 1rem;
     }
 </style>

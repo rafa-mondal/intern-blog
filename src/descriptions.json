@@ -1,0 +1,8 @@
+{
+	"everline": {
+		"paragraphs": [
+			"For this project, I helped configure the logic of the inspection algorithm with consideration to geoprocessing functions provided in ArcGIS Pro. The main gist was to determine whether a pipeline inspection was valid based on tracking an inspector’s location as they went along the pipeline. If the inspector remained relatively on track, with consideration to some other parameters, the inspection was considered valid.",
+			"The client's ask was open ended, so I had to infer some things on my own. For example: how do I determine if an inspector is “close enough” to the route? The easiest way to do this would be to create a geofence, which is bounded from the centerline from a certain configurable distance, equidistant from the right and left of the pipe. I could then make use of geometry.contains() in ArcGIS Pro to determine whether or not the inspector’s location fell within that geofence. Here are some notes I made while constructing the logic for the program."
+		]
+	}
+}

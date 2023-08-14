@@ -2,11 +2,8 @@
 <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Jura" />
 
 <script type="text/javascript">
-    // document.getElementById("myButton").onclick = function () {
-    //     location.href = "www.yoursite.com";
-    // };
-
-    // https://www.npmjs.com/package/svelte-routing
+    //import descriptions from '../descriptions.json';
+    const text = "";
 </script>
 
 <div class="page"> 
@@ -29,7 +26,21 @@
         </div>
     </header>
     <div class="body">
-        Stay tuned!
+        <div class="grid"> 
+            <div class='sm-text'>
+                For this project, I helped configure the logic of the inspection algorithm with consideration to geoprocessing functions provided in ArcGIS Pro. The goal was to determine whether a pipeline inspection was valid based on tracking an inspector’s location as they went along the pipeline. If the inspector remained relatively on track, with consideration to some other parameters, the inspection was considered valid.
+            </div>
+            <div class="tile">
+                <!-- <img class="img" src="/images/everline.svg" alt=""/> -->
+            </div>
+        </div>
+        <div class='sm-text'>
+            The client allowed a lot of freedom in developing a solution, so long as it followed a couple of provided parameters. This freedom meant that I had a lot of flexibility, but that I also had to infer some things on my own. For example: how do I determine if an inspector is “close enough” to the route? The easiest way to do this would be to create a geofence, which is bounded from the centerline from a certain configurable distance, equidistant from the right and left of the pipe. I could then make use of geometry.contains() in ArcGIS Pro to determine whether or not the inspector’s location fell within that geofence. Here are some notes I made while constructing the logic for the program.
+        </div>
+        <img class="img" src="/images/everline-notes.png" alt=""/>
+        <img class="img" src="/images/everline-paper.jpg" alt=""/>
+        <img class="img" src="/images/everline-code.png" alt=""/>
+        
     </div>
     <footer>thank you for reading :)<br><br>contact: rafa.audrija.mondal@gmail.com</footer>
 </div>
@@ -71,11 +82,26 @@
 
         & footer {
             height: 10%;
-            /*background-color: rgba(221, 221, 221, 50);*/
             text-align: center;
             color: #3C4770;
             padding: 1rem;
         }
+    }
+
+    .grid {
+        display: grid;
+        grid-gap: 2rem;
+        
+        grid-template-areas: "text tile";
+        
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: 1fr;
+    } 
+
+    .tile {
+        border-radius: 20px;
+        height: 80%;
+        padding: 2rem;
     }
 
     .logo { display: flex; }
@@ -93,32 +119,27 @@
     }
 
     .img {
-        width: 100%;
+        width: 60%;
         height: 100%;
         border-radius: 20px;
+        
     }
 
-    .lg-text {
-        font-size: 32px;
-        font-weight: 600;
-        color: #3C4770;
-    }
-
-    .md-text {
-        font-size: 44px;
-        color: #3C4770;
+    .code-block {
+        font-family: 'Courier New';
+        font-size: 14px;
+        padding: 2rem;
+        width: 60%;
+        background-color: rgba(230, 230, 230);
     }
 
     .sm-text {
         font-size: 22px;
         color: #3C4770;
-    }
+        grid-area: text;
+        padding: 2rem;
 
-    .header-text { 
-        grid-area: titleText;
-        font-size: 60px;
-        color: #3C4770;
-        /*background-color: rgba(221, 221, 221, 50);*/
+        text-align: start;
     }
 
     .title-text { 
@@ -126,7 +147,6 @@
         font-size: 70px;
         color: #3C4770;
         padding-left: 1rem;
-        /* background-color: rgba(221, 221, 221, 50); */
     }
 
     .home-button {
