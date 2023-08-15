@@ -15,6 +15,7 @@
         </div>
         <div class="links">
             <div class="link-align">
+                <!-- <img class="img" src="/images/storymap.png" alt=""/> -->
                 <a href="https://storymaps.arcgis.com/stories/69e37ee9b86748c1bfbd3b017b592db0" target="_blank" rel="noreferrer noopener">"About me" Storymap</a>
             </div>
             <div class="link-align">
@@ -32,61 +33,94 @@
                 <span class="md-text">June 6th - August 25th</span>
             </div>
         </div>
-        <div class="tile-grid">
-            <a href="/user-conference">
-                <button id="a" class="tile-button"> <img src="/images/uc.png" class="img" alt=""> </button>
-            </a>
+        <div class="tile-grid"> 
 
-            <a href="/esri-in-an-hour">
-                <button id="b" class="tile-button"> <img src="/images/esri-in-an-hour.png" class="img" alt=""> </button>
-            </a>
-
-            <a href="/esri-in-an-hour">
-                <button id="c" class="tile-button"> <img src="/images/group-hackathon-pic.png" class="img" alt=""> </button>
-            </a>
-
-            <div id="one" class="tile-desc">
-                <span class="sm-text">July 10th - July 14th<br></span>
-                <span class="lg-text">User Conference 2023<br></span>
-                <span class="sm-text">The largest GIS conference in the world, and a celebration of how GIS shapes the world<br></span>
-            </div>
-            <div id="two" class="tile-desc">
-                <span class="sm-text">Wednesdays, 11am-12pm MDT<br></span>
-                <span class="lg-text">Esri In an Hour<br></span>
-                <span class="sm-text">Weekly lectures presented by Esri employees on their work<br></span>
-            </div>
-            <div id="three" class="tile-desc">
-                <span class="sm-text">July 21st - July 23rd<br></span>
-                <span class="lg-text">Intern Hackathon<br></span>
-                <span class="sm-text">Esri's 8th annual Weekend of Innovation, where interns work together in teams to build a product using GIS<br></span>
-            </div> 
-            
-            <a href="/chhs">
-                <button id="d" class="tile-button"> <img src="/images/chhs.svg" class="img" alt=""> </button>
+            <a href="/wapo-maps">
+                <button id="i" class="tile-button"> <img src="/images/wapo-map.png" class="img" alt=""> </button>
             </a>
 
             <a href="/lattice">
                 <button id="e" class="tile-button"> <img src="/images/lattice.png" class="img" alt=""> </button>
             </a>
 
+            <a href="/chhs">
+                <button id="d" class="tile-button"> <img src="/images/chhs-pink.png" class="img" alt=""> </button>
+            </a>
+            
+
+            <div id="nine" class="tile-desc">
+                <span class="sm-text">Early August<br></span>
+                <span class="lg-text">Washington Post Weather Map<br></span>
+                <span class="sm-text">Python scripting project to generate map graphics<br></span>
+            </div> 
+            
+            <div id="five" class="tile-desc">
+                <span class="sm-text">Late June - August<br></span>
+                <span class="lg-text">Career Lattice Viewer<br></span>
+                <span class="sm-text">React app development on internal tool to track Esri career progress<br></span>
+            </div>
+            <div id="four" class="tile-desc">
+                <span class="sm-text">June<br></span>
+                <span class="lg-text">California Health & Human Services<br></span>
+                <span class="sm-text">Svelte webapp dashboard to track strategic priority goals of CHHS <br></span>
+            </div>
+            
+
+            <a href="/pothole">
+                <button id="g" class="tile-button"> <img src="/images/pothole.png" class="img" alt=""> </button>
+            </a>
+
+            <a href="/esri-in-an-hour">
+                <button id="b" class="tile-button"> <img src="/images/calcite.png" class="img" alt=""> </button>
+            </a>
+
             <a href="/everline-us">
                 <button id="f" class="tile-button"> <img src="/images/everline.svg" class="img" alt=""> </button>
             </a>
 
-            <div id="four" class="tile-desc">
-                <span class="sm-text">June<br></span>
-                <span class="lg-text">California Health & Human Services<br></span>
-                <span class="sm-text">Dashboard to track strategic priority goals of CHHS <br></span>
+            <div id="seven" class="tile-desc">
+                <span class="sm-text">July<br></span>
+                <span class="lg-text">Pothole Detection Deep Learning<br></span>
+                <span class="sm-text">Creating test data by identifying potholes through ArcGIS Pro Oriented Imagery <br></span>
             </div>
-            <div id="five" class="tile-desc">
-                <span class="sm-text">Late June - Early July<br></span>
-                <span class="lg-text">Career Lattice Viewer<br></span>
-                <span class="sm-text">Internal tool to track Esri career progress and role responsibilities<br></span>
+            <div id="two" class="tile-desc">
+                <span class="sm-text">Late July<br></span>
+                <span class="lg-text">Calcite Web Component<br></span>
+                <span class="sm-text">Research and design on framework agnostic web components dependent on Calcite<br></span>
             </div>
             <div id="six" class="tile-desc">
                 <span class="sm-text">Early June<br></span>
-                <span class="lg-text">Everline US<br></span>
+                <span class="lg-text">Pipeline Inspection Logic<br></span>
                 <span class="sm-text">Geofencing logic development of a pipeline inspector tracking system<br></span>
+            </div> 
+           
+
+            <a href="/charlotte-timeline">
+                <button id="h" class="tile-button"> <img src="/images/charlotte-timeline.png" class="img" alt=""> </button>
+            </a>
+
+            <a href="/user-conference">
+                <button id="a" class="tile-button"> <img src="/images/uc.png" class="img" alt=""> </button>
+            </a>
+
+            <a href="/hackathon">
+                <button id="c" class="tile-button"> <img src="/images/group-hackathon-pic.png" class="img" alt=""> </button>
+            </a>
+
+            <div id="eight" class="tile-desc">
+                <span class="sm-text">Early August<br></span>
+                <span class="lg-text">City of Charlotte TimelineJS<br></span>
+                <span class="sm-text">Creating a sample TimelineJS web app with embedded media for City of Charlotte<br></span>
+            </div>
+            <div id="one" class="tile-desc">
+                <span class="sm-text">July 10th - July 14th<br></span>
+                <span class="lg-text">User Conference 2023<br></span>
+                <span class="sm-text">The largest GIS conference in the world, and a celebration of how GIS shapes the world<br></span>
+            </div>
+            <div id="three" class="tile-desc">
+                <span class="sm-text">July 21st - July 23rd<br></span>
+                <span class="lg-text">Intern Hackathon<br></span>
+                <span class="sm-text">Esri's 8th annual Weekend of Innovation, where interns work together in teams to build a product using GIS<br></span>
             </div> 
 
         </div>
