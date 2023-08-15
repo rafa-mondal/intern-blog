@@ -27,7 +27,10 @@
     </header>
     <div class="body">
         <div class='md-text'> Overview </div>
+        <div class='sm-text'> This was one of my shorter projects, but definitely one of my favorites for the summer! I was tasked with creating a formatted and labeled map graphic to be used in weather reports by the Washington Post. This involved parsing through JSON files for date, forecast, and unit formation, and pulling in fellow intern Peter LeCavalier’s code as an external module to generate the map legend. After I had collected and formatted the graphic components, I used Matplotlib to create the final map graphic and add in the formatted annotations and images.</div>
         <div class='md-text'> Data Parsing </div>
+        <div class='sm-text'>My main mentor for this project, Gina O’Neil, had given me guidelines on where my script should draw from when pulling in map information: </div>
+        <img class="img" src="/images/wapo-notes.jpg" alt=""/>
         <div class='md-text'> Generating Graphics </div>
     </div>
     <footer>thank you for reading :)<br><br>contact: rafa.audrija.mondal@gmail.com</footer>
@@ -89,7 +92,7 @@
     }
 
     .img {
-        width: 100%;
+        width: 80%;
         height: 100%;
         border-radius: 20px;
     }
@@ -104,12 +107,14 @@
         font-size: 44px;
         color: #3C4770;
         text-align: start;
+        padding: 2rem;
     }
 
     .sm-text {
         font-size: 22px;
         color: #3C4770;
         text-align: start;
+        padding: 2rem;
     }
 
     .header-text { 
