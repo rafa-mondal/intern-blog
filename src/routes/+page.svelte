@@ -49,8 +49,8 @@
             
 
             <div id="nine" class="tile-desc">
-                <span class="sm-text">August<br></span>
-                <span class="lg-text">Washington Post Scripting<br></span>
+                <span class="sm-text">Early August<br></span>
+                <span class="lg-text">Washington Post Weather Map<br></span>
                 <span class="sm-text">Python scripting project to generate map graphics<br></span>
             </div> 
             
@@ -110,7 +110,7 @@
             <div id="eight" class="tile-desc">
                 <span class="sm-text">Early August<br></span>
                 <span class="lg-text">City of Charlotte TimelineJS<br></span>
-                <span class="sm-text">Creating a sample TimelineJS project with embedded media for City of Charlotte<br></span>
+                <span class="sm-text">Creating a sample TimelineJS web app with embedded media for City of Charlotte<br></span>
             </div>
             <div id="one" class="tile-desc">
                 <span class="sm-text">July 10th - July 14th<br></span>

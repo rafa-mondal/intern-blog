@@ -32,7 +32,7 @@
         </div>
         <div class='md-text'> Logic Development </div>
         <div class='sm-text'>
-            The client allowed a lot of freedom in developing a solution, so long as it followed a couple of provided parameters. This freedom meant that I had a lot of flexibility, but that I also had to infer some things on my own. For example: how do I determine if an inspector is “close enough” to the route? The easiest way to do this would be to create a geofence, which is bounded from the centerline from a certain configurable distance, equidistant from the right and left of the pipe. I could then make use of geometry.contains() in ArcGIS Pro to determine whether or not the inspector's location fell within that geofence. Here are some notes I made while constructing the logic for the program:
+            The client allowed a lot of freedom in developing a solution, so long as it followed a couple of provided parameters. This freedom meant that I had a lot of flexibility, but that I also had to infer some things on my own. For example: how do I determine if an inspector is “close enough” to the route? The easiest way to do this would be to create a geofence, which is bounded from the centerline from a certain configurable distance, equidistant from the right and left of the pipe. I could then make use of <b>geometry.contains()</b> in ArcGIS Pro to determine whether or not the inspector's location fell within that geofence. Here are some notes I made while constructing the logic for the program:
         </div>
         <img class="img" src="/images/everline-notes.png" alt=""/>
         <div class = "caption"> Word Document planning implementation methods </div>
