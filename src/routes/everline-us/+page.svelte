@@ -12,7 +12,7 @@
             <a href="/">
                 <button class="home-button"> <img src="/images/esri-logo.svg" alt=""/> </button>
             </a>
-            <div class="title-text"> Everline US </div>
+            <div class="title-text"> Pipeline Inspection Logic </div>
         </div>
         <div class="links">
             <div class="link-align">

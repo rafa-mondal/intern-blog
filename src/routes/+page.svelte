@@ -90,7 +90,7 @@
             </div>
             <div id="six" class="tile-desc">
                 <span class="sm-text">Early June<br></span>
-                <span class="lg-text">Everline US<br></span>
+                <span class="lg-text">Pipeline Inspection Logic<br></span>
                 <span class="sm-text">Geofencing logic development of a pipeline inspector tracking system<br></span>
             </div> 
            
