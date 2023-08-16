@@ -15,7 +15,7 @@
             <a href="/">
                 <button class="home-button"> <img src="/images/esri-logo.svg" alt=""/> </button>
             </a>
-            <div class="title-text"> CHHS Dashboard </div>
+            <div class="title-text"> Community Health Dashboard </div>
         </div>
         <div class="links">
             <div class="link-align">
@@ -31,11 +31,11 @@
     <div class="body">
        <div class='md-text'> Overview </div>
        <div class='sm-text'> 
-            The CHHS dashboard was my first project at Esri! I was tasked with polishing a custom Svelte framework web app for California Health and Human Services. This dashboard helps the department track and work towards certain Strategic Priorities and Impact Goals to ensure the health, equity, and wellbeing of Californian citizens. My contribution was making UI changes to the site, as  well as updating the print style sheet to make the web app readable and accessible in a paper format.
+            The community health dashboard was my first project at Esri! I was tasked with polishing a custom Svelte framework web app for a state government. This dashboard helps the department track and work towards certain priorities and goals to ensure the health, equity, and wellbeing of the state's citizens. My contribution was making UI changes to the site, as  well as updating the print style sheet to make the web app readable and accessible in a paper format.
         </div>
        <div class='md-text'> "Smallifying" UI </div>
        <div class='sm-text'>
-        Tweaking the UI to be smaller, or as Lillie dubbed it, “Smallifying the UI” meant shrinking down the interface vertically with respect to spacing, font size, and component size. A lot of my time was spent meticulously cross referencing the web app with the design mockup to ensure they matched, from element spacings and dimensions to font colors, weights, and sizes. The CHHS dashboard was designed through Figma, an online design tool I had extensive experience with before my internship, which helped ease along the process. The bulk of translating the Figma prototype into the working web app was frontiered by others before my internship started. After fine tuning the UI, this was my result:
+        Tweaking the UI to be smaller, or as Lillie dubbed it, “Smallifying the UI” meant shrinking down the interface vertically with respect to spacing, font size, and component size. A lot of my time was spent meticulously cross referencing the web app with the design mockup to ensure they matched, from element spacings and dimensions to font colors, weights, and sizes. The dashboard was designed through Figma, an online design tool I had extensive experience with before my internship, which helped ease along the process. The bulk of translating the Figma prototype into the working web app was frontiered by others before my internship started. After fine tuning the UI, this was my result:
        </div>
        <img class="img" src="/images/chhs-small-before.png" alt=""/>
        <div class='caption'> Main branch before "smallify" changes</div>

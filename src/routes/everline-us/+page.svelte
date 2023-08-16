@@ -51,8 +51,7 @@
         </div>
         <div class='sm-text'> In case 1, obstacles could be determined over time if an inspector's path always fell outside the geofence in a certain pattern, at a certain location. Once obstacles are detected and confirmed, this will be accounted for when determining if the inspector's path was valid or not. Another approach would be to track the inspector's elevation as well (z-axis) which would be another indicator that there is some obstruction on the path. For case 2, we can turn off location and stop collecting data points after the inspector is a certain, configurable distance away from the end of the pipeline. This way a large amount of points falling outside the geofence doesn't affect the validity of the inspection. Regarding case 3, we can implement outlier detection and ensure the GPS technology used is standardized across all devices.</div>
         <div class='md-text'> Implementation </div>
-        <div class='sm-text'>
-        </div>
+        <img class="img" src="/images/everline-gif.gif" alt=""/>
         <div class='md-text'> Special thanks </div>
         <div class='sm-text'> Special thanks to JP Stupfel for being so helpful and resourceful during the implementation process! He had taken the liberty of working through both the client-side and server-side implementations in his own time which sped along the process of handing off the deliverable to the client.</div>
     </div>

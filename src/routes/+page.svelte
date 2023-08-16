@@ -40,11 +40,11 @@
             </a>
 
             <a href="/lattice">
-                <button id="e" class="tile-button"> <img src="/images/lattice.png" class="img" alt=""> </button>
+                <button id="e" class="tile-button"> <img src="/images/lattice-new.png" class="img" alt=""> </button>
             </a>
 
             <a href="/chhs">
-                <button id="d" class="tile-button"> <img src="/images/chhs-pink.png" class="img" alt=""> </button>
+                <button id="d" class="tile-button"> <img src="/images/chhs-new.png" class="img" alt=""> </button>
             </a>
             
 
@@ -61,8 +61,8 @@
             </div>
             <div id="four" class="tile-desc">
                 <span class="sm-text">June<br></span>
-                <span class="lg-text">California Health & Human Services<br></span>
-                <span class="sm-text">Svelte webapp dashboard to track strategic priority goals of CHHS <br></span>
+                <span class="lg-text">Community Health Dashboard<br></span>
+                <span class="sm-text">Svelte webapp dashboard to track community health goals of a state government  <br></span>
             </div>
             
 
@@ -70,7 +70,7 @@
                 <button id="g" class="tile-button"> <img src="/images/pothole.png" class="img" alt=""> </button>
             </a>
 
-            <a href="/esri-in-an-hour">
+            <a href="/calcite">
                 <button id="b" class="tile-button"> <img src="/images/calcite.png" class="img" alt=""> </button>
             </a>
 
