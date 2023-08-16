@@ -92,46 +92,10 @@
         align-items: center;
     }
 
-    .intro-grid {
-        display: grid;
-        grid-gap: 2rem;
-        
-        grid-template-areas: "titleImage titleImage titleText";
-        
-        grid-template-columns: repeat(3, 1fr);
-        grid-template-rows: 1fr;
-    } 
-
-    .tile-grid {
-        display: grid;
-        grid-gap: 2rem;
-        
-        padding-top: 3rem;
-        padding-bottom: 2rem;
-
-        grid-template-areas: 
-            "a   b   c"
-            "one two three";
-
-        grid-template-columns: repeat(3, 1fr);
-        grid-template-rows: 1fr 0.6fr;
-    }
-
-    .title-image { 
-        grid-area: titleImage;
-        /*background-color: rgba(221, 221, 221, 50);*/
-    }
-
     .img {
         width: 100%;
         height: 100%;
         border-radius: 20px;
-    }
-
-    .lg-text {
-        font-size: 32px;
-        font-weight: 600;
-        color: #3C4770;
     }
 
     .md-text {
@@ -144,13 +108,6 @@
         color: #3C4770;
     }
 
-    .header-text { 
-        grid-area: titleText;
-        font-size: 60px;
-        color: #3C4770;
-        /*background-color: rgba(221, 221, 221, 50);*/
-    }
-
     .title-text { 
         grid-area: title; 
         font-size: 70px;
@@ -158,18 +115,6 @@
         padding-left: 1rem;
         /* background-color: rgba(221, 221, 221, 50); */
     }
-
-    #a { grid-area: a; }
-
-    #b { grid-area: b; }
-
-    #c { grid-area: c; }
-
-    /*#d { grid-area: d; }
-
-    #e { grid-area: e; }
-
-    #f { grid-area: f; }*/
 
     .home-button {
         border: none;
@@ -184,25 +129,5 @@
             cursor: pointer;
             transform: rotate(360deg);
         }  
-    }
-
-    .tile-button {
-        background: none;
-        border: none;
-        border-radius: 20px;
-        aspect-ratio: 1.24;
-
-        /*transition: border-width 0.6s linear;*/
-
-        &:hover {
-            cursor: pointer;
-            border: solid transparent;
-        }
-    }
-
-    .tile-desc {
-        /*background-color: rgba(221, 221, 221, 50);*/
-        aspect-ratio: 1.95;
-        padding: 1rem;
     }
 </style>

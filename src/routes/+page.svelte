@@ -43,7 +43,7 @@
                 <button id="e" class="tile-button"> <img src="/images/lattice-new.png" class="img" alt=""> </button>
             </a>
 
-            <a href="/chhs">
+            <a href="/health-dashboard">
                 <button id="d" class="tile-button"> <img src="/images/chhs-new.png" class="img" alt=""> </button>
             </a>
             
@@ -74,7 +74,7 @@
                 <button id="b" class="tile-button"> <img src="/images/calcite.png" class="img" alt=""> </button>
             </a>
 
-            <a href="/everline-us">
+            <a href="/pipeline">
                 <button id="f" class="tile-button"> <img src="/images/everline.svg" class="img" alt=""> </button>
             </a>
 
@@ -96,7 +96,7 @@
            
 
             <a href="/charlotte-timeline">
-                <button id="h" class="tile-button"> <img src="/images/charlotte-timeline.png" class="img" alt=""> </button>
+                <button id="h" class="tile-button"> <img src="/images/charlotte-ex.png" class="img" alt=""> </button>
             </a>
 
             <a href="/user-conference">
@@ -109,8 +109,8 @@
 
             <div id="eight" class="tile-desc">
                 <span class="sm-text">Early August<br></span>
-                <span class="lg-text">City of Charlotte TimelineJS<br></span>
-                <span class="sm-text">Creating a sample TimelineJS web app with embedded media for City of Charlotte<br></span>
+                <span class="lg-text">TimelineJS Sample<br></span>
+                <span class="sm-text">Creating a sample TimelineJS web app with embedded media for a city government<br></span>
             </div>
             <div id="one" class="tile-desc">
                 <span class="sm-text">July 10th - July 14th<br></span>

@@ -149,12 +149,6 @@
         border-radius: 20px;
     }
 
-    .lg-text {
-        font-size: 32px;
-        font-weight: 600;
-        color: #3C4770;
-    }
-
     .md-text {
         font-size: 44px;
         color: #3C4770;
@@ -170,19 +164,11 @@
         padding: 2rem;
     }
 
-    .header-text { 
-        grid-area: titleText;
-        font-size: 60px;
-        color: #3C4770;
-        /*background-color: rgba(221, 221, 221, 50);*/
-    }
-
     .title-text { 
         grid-area: title; 
         font-size: 70px;
         color: #3C4770;
         padding-left: 1rem;
-        /* background-color: rgba(221, 221, 221, 50); */
     }
 
     .home-button {
