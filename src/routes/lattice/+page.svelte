@@ -96,11 +96,6 @@
             align-items: center;
             justify-content: space-between;
             font-size: 22px;
-
-            @media screen and (max-width: 800px) {
-                //background-color: #DBDEFF;
-                //position: fixed;
-            }
         }
 
         & .body {
