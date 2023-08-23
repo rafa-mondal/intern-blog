@@ -14,14 +14,15 @@
             <div class="title-text"> Intern Blog </div>
         </div>
         <div class="links">
-            <div class="link-align">
-                <!-- <img class="img" src="/images/storymap.png" alt=""/> -->
-                <a href="https://storymaps.arcgis.com/stories/69e37ee9b86748c1bfbd3b017b592db0" target="_blank" rel="noreferrer noopener">"About me" Storymap</a>
-            </div>
-            <div class="link-align">
+            <a class="link-align" href="https://storymaps.arcgis.com/stories/69e37ee9b86748c1bfbd3b017b592db0" target="_blank" rel="noreferrer noopener">
+                <img class="img" height= 10% src="/images/storymap.svg" alt=""/>
+                <span>Storymap</span>
+            </a>
+
+            <a class= "link-align" href="https://www.linkedin.com/in/rafa-mondal-4a8899221/" target="_blank" rel="noreferrer noopener">
                 <img class="img" src="/images/linkedin.svg" alt=""/>
-                <a href="https://www.linkedin.com/in/rafa-mondal-4a8899221/" target="_blank" rel="noreferrer noopener">LinkedIn</a>
-            </div>
+                <span>LinkedIn</span>
+            </a>
         </div>
     </header>
     <div class="body">
@@ -29,114 +30,114 @@
          
             <div class="title-image"> <img src="/images/intern.gif" class="img" alt=""> </div>
             <div class="header-text"> 
-                <span> Rafa<br>Mondal’s<br>Software Internship<br>Summer 2023<br></span>
+                <span> Rafa Mondal’s Software Internship Summer 2023<br></span>
                 <span class="md-text">June 6th - August 25th</span>
             </div>
         </div>
         <div class="tile-grid"> 
 
-            <div class="tile"> 
+            <div> 
                 <a href="/wapo-maps">
-                    <button id="i" class="tile-button"> <img src="/images/wapo-map.png" class="img" alt=""> </button>
+                    <button class="tile-button"> <img src="/images/wapo-map.png" class="img" alt=""> </button>
                 </a>
 
-                <div id="nine" class="tile-desc">
+                <div class="tile-desc">
                     <span class="sm-text">Early August<br></span>
                     <span class="lg-text">Washington Post Weather Map<br></span>
                     <span class="sm-text">Python scripting project to generate map graphics<br></span>
                 </div> 
             </div>
 
-            <div class="tile"> 
+            <div> 
                 <a href="/lattice">
-                    <button id="e" class="tile-button"> <img src="/images/lattice-new.png" class="img" alt=""> </button>
+                    <button class="tile-button"> <img src="/images/lattice-new.png" class="img" alt=""> </button>
                 </a>
 
-                <div id="five" class="tile-desc">
+                <div class="tile-desc">
                     <span class="sm-text">Late June - August<br></span>
                     <span class="lg-text">Career Lattice Viewer<br></span>
                     <span class="sm-text">React app development on internal tool to track Esri career progress<br></span>
                 </div>
             </div>
 
-            <div class="tile"> 
+            <div> 
                 <a href="/health-dashboard">
-                    <button id="d" class="tile-button"> <img src="/images/chhs-new.png" class="img" alt=""> </button>
+                    <button class="tile-button"> <img src="/images/chhs-new.png" class="img" alt=""> </button>
                 </a>
 
-                <div id="four" class="tile-desc">
+                <div class="tile-desc">
                     <span class="sm-text">June<br></span>
                     <span class="lg-text">Community Health Dashboard<br></span>
                     <span class="sm-text">Svelte webapp dashboard to track community health goals of a state government  <br></span>
                 </div>
             </div>
 
-            <div class="tile"> 
+            <div> 
                 <a href="/calcite">
-                    <button id="b" class="tile-button"> <img src="/images/calcite.png" class="img" alt=""> </button>
+                    <button class="tile-button"> <img src="/images/calcite.png" class="img" alt=""> </button>
                 </a>
 
-                <div id="two" class="tile-desc">
+                <div class="tile-desc">
                     <span class="sm-text">Late July<br></span>
                     <span class="lg-text">Calcite Web Component<br></span>
                     <span class="sm-text">Research and design on framework agnostic web components dependent on Calcite<br></span>
                 </div>
             </div>
 
-            <div class="tile"> 
+            <div> 
                 <a href="/pipeline">
-                    <button id="f" class="tile-button"> <img src="/images/everline.svg" class="img" alt=""> </button>
+                    <button class="tile-button"> <img src="/images/everline.svg" class="img" alt=""> </button>
                 </a>
 
-                <div id="six" class="tile-desc">
+                <div class="tile-desc">
                     <span class="sm-text">Early June<br></span>
                     <span class="lg-text">Pipeline Inspection Logic<br></span>
                     <span class="sm-text">Geofencing logic development of a pipeline inspector tracking system<br></span>
                 </div> 
             </div>
 
-            <div class="tile"> 
+            <div> 
                 <a href="/charlotte-timeline">
-                    <button id="h" class="tile-button"> <img src="/images/charlotte-ex.png" class="img" alt=""> </button>
+                    <button class="tile-button"> <img src="/images/charlotte-ex.png" class="img" alt=""> </button>
                 </a>
 
-                <div id="eight" class="tile-desc">
+                <div class="tile-desc">
                     <span class="sm-text">Early August<br></span>
                     <span class="lg-text">TimelineJS Sample<br></span>
                     <span class="sm-text">Creating a sample TimelineJS web app with embedded media for a city government<br></span>
                 </div> 
             </div>
             
-            <div class="tile"> 
+            <div> 
                 <a href="/pothole">
-                    <button id="g" class="tile-button"> <img src="/images/pothole.png" class="img" alt=""> </button>
+                    <button class="tile-button"> <img src="/images/pothole.png" class="img" alt=""> </button>
                 </a>
 
-                <div id="seven" class="tile-desc">
+                <div class="tile-desc">
                     <span class="sm-text">July<br></span>
                     <span class="lg-text">Pothole Detection Deep Learning<br></span>
                     <span class="sm-text">Creating test data by identifying potholes through LiDAR & ArcGIS Pro Oriented Imagery <br></span>
                 </div>
             </div>
 
-            <div class="tile"> 
+            <div> 
                 <a href="/user-conference">
-                    <button id="a" class="tile-button"> <img src="/images/uc.png" class="img" alt=""> </button>
+                    <button class="tile-button"> <img src="/images/uc.png" class="img" alt=""> </button>
                 </a>
 
-                <div id="one" class="tile-desc">
+                <div class="tile-desc">
                     <span class="sm-text">July 10th - July 14th<br></span>
                     <span class="lg-text">User Conference 2023<br></span>
                     <span class="sm-text">The largest GIS conference in the world, and a celebration of how GIS shapes the world<br></span>
                 </div>
             </div>
 
-            <div class="tile"> 
+            <div> 
                 <a href="/hackathon">
-                    <button id="c" class="tile-button"> <img src="/images/group-hackathon-pic.png" class="img" alt=""> </button>
+                    <button class="tile-button"> <img src="/images/group-hackathon-pic.png" class="img" alt=""> </button>
                 </a>
 
-                <div id="three" class="tile-desc">
+                <div class="tile-desc">
                     <span class="sm-text">July 21st - July 23rd<br></span>
                     <span class="lg-text">Intern Hackathon<br></span>
                     <span class="sm-text">Esri's 8th annual Weekend of Innovation, where interns work together in teams to build a product using GIS<br></span>
@@ -156,6 +157,7 @@
         left: 0;
         margin: 0;
         padding: 1rem;
+        overflow-x: hidden;
 
         background-image: linear-gradient(#DBDEFF, #F9EDFF, #FFFFFF);
         background-size: cover;
@@ -169,12 +171,22 @@
             align-items: center;
             justify-content: space-between;
             font-size: 22px;
+
+            @media screen and (max-width: 800px) {
+                //background-color: #DBDEFF;
+                //position: fixed;
+            }
         }
 
         & .body {
             padding-top: 1rem;
             padding-left: 6rem;
             padding-right: 6rem;
+
+            @media screen and (max-width: 800px) {
+                padding-left: 1rem;
+                padding-right: 1rem;
+            }
         }
 
         & footer {
@@ -185,13 +197,40 @@
         }
     }
 
-    .logo { display: flex; }
+    .logo { 
+        display: flex; 
+        align-items: center;
+
+        & a {
+            & button {
+                & img {
+                    @media screen and (max-width: 600px) {
+                        width: 80px;
+                    }
+                }   
+            }   
+        }
+
+        & .title-text {
+            @media screen and (max-width: 600px) {
+                font-size: 35px;
+            }
+        }
+    }
 
     .links {
         display: flex;
-        justify-content: space-between;
         align-items: center;
-        width: 22%;
+        justify-content: space-between;
+        width: 400px;
+
+        @media screen and (max-width: 906px) {
+            width: 25%;
+
+            & span {
+                display: none;     
+            }
+        }
     }
 
     .link-align {
@@ -216,30 +255,8 @@
         padding-top: 3rem;
         padding-bottom: 2rem;
 
-        grid-template-areas: 
-            "a   b   c"
-            "one two three";
-
         grid-template-columns: repeat(3, 1fr);
         grid-template-rows: 1fr 0.6fr;
-
-        @media screen and (max-width: 1450px) {
-            grid-template-areas: 
-            "a   b"
-            "one two";
-
-            grid-template-columns: repeat(2, 1fr);
-            grid-template-rows: 1fr 0.6fr;
-        }
-
-        @media screen and (max-width: 800px) {
-            grid-template-areas: 
-            "a"
-            "one";
-
-            grid-template-columns: repeat(1, 1fr);
-            grid-template-rows: 1fr 0.6fr;
-        }
     }
 
     .title-image { 
@@ -272,6 +289,12 @@
         grid-area: titleText;
         font-size: 60px;
         color: #3C4770;
+
+        & .md-text {
+            @media screen and (max-width: 1450px) {
+                font-size: 30px;
+            }
+        }
     }
 
     .title-text { 
@@ -296,10 +319,6 @@
         }  
     }
 
-    .tile {
-
-    }
-
     .tile-button {
         background: none;
         border: none;
@@ -316,4 +335,27 @@
         aspect-ratio: 1.95;
         padding: 1rem;
     }
+
+    @media screen and (max-width: 1450px) {
+        .intro-grid { display: block; }
+
+        .tile-grid { 
+            grid-template-columns: repeat(2, 1fr);
+            grid-template-rows: 1fr 0.6fr;
+        }
+        
+        .header-text { font-size: 40px; }
+    }
+
+    @media screen and (max-width: 800px) {
+        .page { padding: none; }
+
+        .tile-grid { 
+            grid-template-columns: repeat(1, 1fr);
+            grid-template-rows: 1fr 0.6fr;
+        }
+
+        .title-text { font-size: 50px; }
+    }
+
 </style>

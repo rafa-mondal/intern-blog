@@ -12,17 +12,18 @@
             <a href="/">
                 <button class="home-button"> <img src="/images/esri-logo.svg" alt=""/> </button>
             </a>
-            <div class="title-text"> Washington Post Weather Maps </div>
+            <div class="title-text"> Intern Blog </div>
         </div>
         <div class="links">
-            <div class="link-align">
-                <a href="https://storymaps.arcgis.com/stories/69e37ee9b86748c1bfbd3b017b592db0" target="_blank" rel="noreferrer noopener">"About me" Storymap</a>
-                <!-- <img class="img" src="src/link.svg" alt=""> -->
-            </div>
-            <div class="link-align">
+            <a class="link-align" href="https://storymaps.arcgis.com/stories/69e37ee9b86748c1bfbd3b017b592db0" target="_blank" rel="noreferrer noopener">
+                <img class="img" height= 10% src="/images/storymap.svg" alt=""/>
+                <span>Storymap</span>
+            </a>
+
+            <a class= "link-align" href="https://www.linkedin.com/in/rafa-mondal-4a8899221/" target="_blank" rel="noreferrer noopener">
                 <img class="img" src="/images/linkedin.svg" alt=""/>
-                <a href="https://www.linkedin.com/in/rafa-mondal-4a8899221/" target="_blank" rel="noreferrer noopener">LinkedIn</a>
-            </div>
+                <span>LinkedIn</span>
+            </a>
         </div>
     </header>
     <div class="body">
@@ -58,11 +59,12 @@
 <style lang="scss">
     .page {
         position: absolute;
-        width: calc(100% - 2rem);
+        width: (100% - 2rem);
         top: 0;
         left: 0;
         margin: 0;
         padding: 1rem;
+        overflow-x: hidden;
 
         background-image: linear-gradient(#DBDEFF, #F9EDFF, #FFFFFF);
         background-size: cover;
@@ -76,14 +78,22 @@
             align-items: center;
             justify-content: space-between;
             font-size: 22px;
+
+            @media screen and (max-width: 800px) {
+                //background-color: #DBDEFF;
+                //position: fixed;
+            }
         }
 
         & .body {
             padding-top: 1rem;
             padding-left: 6rem;
             padding-right: 6rem;
-            /*padding-top: 2rem;*/
-            text-align: center;
+
+            @media screen and (max-width: 800px) {
+                padding-left: 1rem;
+                padding-right: 1rem;
+            }
         }
 
         & footer {
@@ -94,13 +104,40 @@
         }
     }
 
-    .logo { display: flex; }
+    .logo { 
+        display: flex; 
+        align-items: center;
+
+        & a {
+            & button {
+                & img {
+                    @media screen and (max-width: 600px) {
+                        width: 80px;
+                    }
+                }   
+            }   
+        }
+
+        & .title-text {
+            @media screen and (max-width: 600px) {
+                font-size: 35px;
+            }
+        }
+    }
 
     .links {
         display: flex;
-        justify-content: space-between;
         align-items: center;
-        width: 22%;
+        justify-content: space-between;
+        width: 400px;
+
+        @media screen and (max-width: 906px) {
+            width: 25%;
+
+            & span {
+                display: none;     
+            }
+        }
     }
 
     .link-align {
@@ -157,5 +194,11 @@
             cursor: pointer;
             transform: rotate(360deg);
         }  
+    }
+
+    @media screen and (max-width: 800px) {
+        .page { padding: none; }
+
+        .title-text { font-size: 50px; }
     }
 </style>
