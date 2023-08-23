@@ -76,14 +76,13 @@
 <style lang="scss">
     .page {
         position: absolute;
-        /* BRUH width: 100%;*/
-        width: 97vw;
+        width: calc(100% - 2rem);
         top: 0;
         left: 0;
+        margin: 0;
         padding: 1rem;
 
         background-image: linear-gradient(#DBDEFF, #F9EDFF, #FFFFFF);
-        background-size: cover;
         background-size: cover;
         background-repeat: no-repeat;
         

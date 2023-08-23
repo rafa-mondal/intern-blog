@@ -35,94 +35,113 @@
         </div>
         <div class="tile-grid"> 
 
-            <a href="/wapo-maps">
-                <button id="i" class="tile-button"> <img src="/images/wapo-map.png" class="img" alt=""> </button>
-            </a>
+            <div class="tile"> 
+                <a href="/wapo-maps">
+                    <button id="i" class="tile-button"> <img src="/images/wapo-map.png" class="img" alt=""> </button>
+                </a>
 
-            <a href="/lattice">
-                <button id="e" class="tile-button"> <img src="/images/lattice-new.png" class="img" alt=""> </button>
-            </a>
+                <div id="nine" class="tile-desc">
+                    <span class="sm-text">Early August<br></span>
+                    <span class="lg-text">Washington Post Weather Map<br></span>
+                    <span class="sm-text">Python scripting project to generate map graphics<br></span>
+                </div> 
+            </div>
 
-            <a href="/health-dashboard">
-                <button id="d" class="tile-button"> <img src="/images/chhs-new.png" class="img" alt=""> </button>
-            </a>
+            <div class="tile"> 
+                <a href="/lattice">
+                    <button id="e" class="tile-button"> <img src="/images/lattice-new.png" class="img" alt=""> </button>
+                </a>
+
+                <div id="five" class="tile-desc">
+                    <span class="sm-text">Late June - August<br></span>
+                    <span class="lg-text">Career Lattice Viewer<br></span>
+                    <span class="sm-text">React app development on internal tool to track Esri career progress<br></span>
+                </div>
+            </div>
+
+            <div class="tile"> 
+                <a href="/health-dashboard">
+                    <button id="d" class="tile-button"> <img src="/images/chhs-new.png" class="img" alt=""> </button>
+                </a>
+
+                <div id="four" class="tile-desc">
+                    <span class="sm-text">June<br></span>
+                    <span class="lg-text">Community Health Dashboard<br></span>
+                    <span class="sm-text">Svelte webapp dashboard to track community health goals of a state government  <br></span>
+                </div>
+            </div>
+
+            <div class="tile"> 
+                <a href="/calcite">
+                    <button id="b" class="tile-button"> <img src="/images/calcite.png" class="img" alt=""> </button>
+                </a>
+
+                <div id="two" class="tile-desc">
+                    <span class="sm-text">Late July<br></span>
+                    <span class="lg-text">Calcite Web Component<br></span>
+                    <span class="sm-text">Research and design on framework agnostic web components dependent on Calcite<br></span>
+                </div>
+            </div>
+
+            <div class="tile"> 
+                <a href="/pipeline">
+                    <button id="f" class="tile-button"> <img src="/images/everline.svg" class="img" alt=""> </button>
+                </a>
+
+                <div id="six" class="tile-desc">
+                    <span class="sm-text">Early June<br></span>
+                    <span class="lg-text">Pipeline Inspection Logic<br></span>
+                    <span class="sm-text">Geofencing logic development of a pipeline inspector tracking system<br></span>
+                </div> 
+            </div>
+
+            <div class="tile"> 
+                <a href="/charlotte-timeline">
+                    <button id="h" class="tile-button"> <img src="/images/charlotte-ex.png" class="img" alt=""> </button>
+                </a>
+
+                <div id="eight" class="tile-desc">
+                    <span class="sm-text">Early August<br></span>
+                    <span class="lg-text">TimelineJS Sample<br></span>
+                    <span class="sm-text">Creating a sample TimelineJS web app with embedded media for a city government<br></span>
+                </div> 
+            </div>
             
+            <div class="tile"> 
+                <a href="/pothole">
+                    <button id="g" class="tile-button"> <img src="/images/pothole.png" class="img" alt=""> </button>
+                </a>
 
-            <div id="nine" class="tile-desc">
-                <span class="sm-text">Early August<br></span>
-                <span class="lg-text">Washington Post Weather Map<br></span>
-                <span class="sm-text">Python scripting project to generate map graphics<br></span>
-            </div> 
-            
-            <div id="five" class="tile-desc">
-                <span class="sm-text">Late June - August<br></span>
-                <span class="lg-text">Career Lattice Viewer<br></span>
-                <span class="sm-text">React app development on internal tool to track Esri career progress<br></span>
+                <div id="seven" class="tile-desc">
+                    <span class="sm-text">July<br></span>
+                    <span class="lg-text">Pothole Detection Deep Learning<br></span>
+                    <span class="sm-text">Creating test data by identifying potholes through LiDAR & ArcGIS Pro Oriented Imagery <br></span>
+                </div>
             </div>
-            <div id="four" class="tile-desc">
-                <span class="sm-text">June<br></span>
-                <span class="lg-text">Community Health Dashboard<br></span>
-                <span class="sm-text">Svelte webapp dashboard to track community health goals of a state government  <br></span>
+
+            <div class="tile"> 
+                <a href="/user-conference">
+                    <button id="a" class="tile-button"> <img src="/images/uc.png" class="img" alt=""> </button>
+                </a>
+
+                <div id="one" class="tile-desc">
+                    <span class="sm-text">July 10th - July 14th<br></span>
+                    <span class="lg-text">User Conference 2023<br></span>
+                    <span class="sm-text">The largest GIS conference in the world, and a celebration of how GIS shapes the world<br></span>
+                </div>
             </div>
-            
 
-            <a href="/pothole">
-                <button id="g" class="tile-button"> <img src="/images/pothole.png" class="img" alt=""> </button>
-            </a>
+            <div class="tile"> 
+                <a href="/hackathon">
+                    <button id="c" class="tile-button"> <img src="/images/group-hackathon-pic.png" class="img" alt=""> </button>
+                </a>
 
-            <a href="/calcite">
-                <button id="b" class="tile-button"> <img src="/images/calcite.png" class="img" alt=""> </button>
-            </a>
-
-            <a href="/pipeline">
-                <button id="f" class="tile-button"> <img src="/images/everline.svg" class="img" alt=""> </button>
-            </a>
-
-            <div id="seven" class="tile-desc">
-                <span class="sm-text">July<br></span>
-                <span class="lg-text">Pothole Detection Deep Learning<br></span>
-                <span class="sm-text">Creating test data by identifying potholes through ArcGIS Pro Oriented Imagery <br></span>
+                <div id="three" class="tile-desc">
+                    <span class="sm-text">July 21st - July 23rd<br></span>
+                    <span class="lg-text">Intern Hackathon<br></span>
+                    <span class="sm-text">Esri's 8th annual Weekend of Innovation, where interns work together in teams to build a product using GIS<br></span>
+                </div> 
             </div>
-            <div id="two" class="tile-desc">
-                <span class="sm-text">Late July<br></span>
-                <span class="lg-text">Calcite Web Component<br></span>
-                <span class="sm-text">Research and design on framework agnostic web components dependent on Calcite<br></span>
-            </div>
-            <div id="six" class="tile-desc">
-                <span class="sm-text">Early June<br></span>
-                <span class="lg-text">Pipeline Inspection Logic<br></span>
-                <span class="sm-text">Geofencing logic development of a pipeline inspector tracking system<br></span>
-            </div> 
-           
-
-            <a href="/charlotte-timeline">
-                <button id="h" class="tile-button"> <img src="/images/charlotte-ex.png" class="img" alt=""> </button>
-            </a>
-
-            <a href="/user-conference">
-                <button id="a" class="tile-button"> <img src="/images/uc.png" class="img" alt=""> </button>
-            </a>
-
-            <a href="/hackathon">
-                <button id="c" class="tile-button"> <img src="/images/group-hackathon-pic.png" class="img" alt=""> </button>
-            </a>
-
-            <div id="eight" class="tile-desc">
-                <span class="sm-text">Early August<br></span>
-                <span class="lg-text">TimelineJS Sample<br></span>
-                <span class="sm-text">Creating a sample TimelineJS web app with embedded media for a city government<br></span>
-            </div>
-            <div id="one" class="tile-desc">
-                <span class="sm-text">July 10th - July 14th<br></span>
-                <span class="lg-text">User Conference 2023<br></span>
-                <span class="sm-text">The largest GIS conference in the world, and a celebration of how GIS shapes the world<br></span>
-            </div>
-            <div id="three" class="tile-desc">
-                <span class="sm-text">July 21st - July 23rd<br></span>
-                <span class="lg-text">Intern Hackathon<br></span>
-                <span class="sm-text">Esri's 8th annual Weekend of Innovation, where interns work together in teams to build a product using GIS<br></span>
-            </div> 
-
         </div>
     </div>
     <footer>thank you for reading :)<br><br>contact: rafa.audrija.mondal@gmail.com</footer> 
@@ -132,14 +151,13 @@
 <style lang="scss">
     .page {
         position: absolute;
-        /* BRUH width: 100%;*/
-        width: 97vw;
+        width: (100% - 2rem);
         top: 0;
         left: 0;
+        margin: 0;
         padding: 1rem;
 
         background-image: linear-gradient(#DBDEFF, #F9EDFF, #FFFFFF);
-        background-size: cover;
         background-size: cover;
         background-repeat: no-repeat;
         
@@ -204,6 +222,24 @@
 
         grid-template-columns: repeat(3, 1fr);
         grid-template-rows: 1fr 0.6fr;
+
+        @media screen and (max-width: 1450px) {
+            grid-template-areas: 
+            "a   b"
+            "one two";
+
+            grid-template-columns: repeat(2, 1fr);
+            grid-template-rows: 1fr 0.6fr;
+        }
+
+        @media screen and (max-width: 800px) {
+            grid-template-areas: 
+            "a"
+            "one";
+
+            grid-template-columns: repeat(1, 1fr);
+            grid-template-rows: 1fr 0.6fr;
+        }
     }
 
     .title-image { 
@@ -258,6 +294,10 @@
             cursor: pointer;
             transform: rotate(360deg);
         }  
+    }
+
+    .tile {
+
     }
 
     .tile-button {

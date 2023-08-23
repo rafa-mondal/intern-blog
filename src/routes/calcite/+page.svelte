@@ -37,6 +37,7 @@
         <div class='md-text'> Design Prototype</div>
         <div class='sm-text'>I then designed Figma protypes of the different components, which I have decided to sort into AccountTile, AccountManager, and AccountPreview. These components are based off the now deprecated Calcite-React components, and have configurable properties that are either unique to the new, more encompassing component, or are exposed from the existing calcite components they are dependent upon.</div>
         <img class="img" src="/images/calcite-overview.png" alt=""/>
+        <div class='sm-text'>Special thanks to Brandon Lammey, Lillie Bahrami, and Josh Peterson!</div>
     </div>
     <footer>thank you for reading :)<br><br>contact: rafa.audrija.mondal@gmail.com</footer>
 </div>
@@ -45,14 +46,13 @@
 <style lang="scss">
     .page {
         position: absolute;
-        /* BRUH width: 100%;*/
-        width: 97vw;
+        width: calc(100% - 2rem);
         top: 0;
         left: 0;
+        margin: 0;
         padding: 1rem;
 
         background-image: linear-gradient(#DBDEFF, #F9EDFF, #FFFFFF);
-        background-size: cover;
         background-size: cover;
         background-repeat: no-repeat;
         

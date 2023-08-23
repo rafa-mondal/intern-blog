@@ -29,7 +29,21 @@
         </div>
     </header>
     <div class="body">
-       Stay tuned!
+        <div class='md-text'>Dawgs on Fire</div>
+        <img class="img" src="/images/hackathon.png" alt=""/>
+        <div class='sm-text'>Esri’s “Weekend of Innovation” Intern Hackathon happens every summer. Interns from across Esri are put into teams and spend a weekend bringing their ideas to life. Unfortunately, the Denver interns were divided. However, this meant my team was a cross-office endeavor from Denver to Charlotte, featuring Peter LeCavalier, Joeseph Earles, Brandy  Ayesu-Danso, and Matthew Woodland. </div>
+        <div class='md-text'>Abstract</div>
+        <div class='sm-text'>“Planning real-time information and evacuation in emergency situations presents a challenge for offices, schools, and other organizations. We plan to build an emergency evacuation application which allows users to streamline evacuation and edit necessary evacuation routes based on new hazards, such as fires blocking doorways, via ArcGIS Online functionality.<br><br>
+            This application would sound an alert to notify users once an emergency is declared in the building. It then displays a real-time map of the building which routes users to the closest available exit. We plan to implement “I have evacuated,” and “I am stuck” buttons that could gather real time information for administrators and rescue crews. The administrator role can declare an emergency, send an alert to registered users, update blocked exits, and access the statistics report after the evacuation. <br><br>
+            This proof-of-concept focuses on fire-based emergencies, but we anticipate this software can be scoped to handle hurricanes, tornados, active shooters, and other emergencies.”
+            </div>
+        <div class='md-text'>Demo Video</div>
+        <video class='img' controls>
+            <source src="images/arcevac.mp4" type=video/mp4>
+        </video>
+        <div class='md-text'>Awards</div>
+        <img class="img-small" src="/images/hackathon-win.jpg" alt=""/>
+        <div class='caption'>Our team, Dawgs on Fire, won the “Best Teamwork” award! </div>
     </div>
     <footer>thank you for reading :)<br><br>contact: rafa.audrija.mondal@gmail.com</footer>
 </div>
@@ -38,14 +52,14 @@
 <style lang="scss">
     .page {
         position: absolute;
-        /* BRUH width: 100%;*/
-        width: 97vw;
+        width: calc(100% - 2rem);
         top: 0;
         left: 0;
+        margin: 0;
         padding: 1rem;
 
+
         background-image: linear-gradient(#DBDEFF, #F9EDFF, #FFFFFF);
-        background-size: cover;
         background-size: cover;
         background-repeat: no-repeat;
         
@@ -98,14 +112,31 @@
         border-radius: 20px;
     }
 
+    .img-small {
+        width: 60%;
+        border-radius: 20px;
+    }
+
     .md-text {
         font-size: 44px;
         color: #3C4770;
+        text-align: start;
+        padding: 2rem;
     }
 
     .sm-text {
         font-size: 22px;
         color: #3C4770;
+        text-align: start;
+        padding: 2rem;
+    }
+
+    .caption {
+        grid-area: "caption";
+        font-size: 22px;
+        color: #3C4770;
+        padding: 2rem;
+        text-align: center;
     }
 
     .title-text { 

@@ -57,10 +57,10 @@
         My next major task for the dashboard was to create the Print Styling Sheet for the dashboards. When you print a page, your browser automatically generates a print layout for the page, with varying degrees of readability. Reformatting the print sheet meant thinking about all the nuances that went into to translating an interactive webpage into a tangible print. This was a bit of a unique task since my team had limited experience with Print Style Sheets. Since I was mostly on my own, I began making a research document of best practices and began development from there:
        </div>
        <div class='img-grid'>
-        <img class="img-long" src="/images/chhs-print-before.png" alt=""/>
-        <img class="img-long" src="/images/chhs-print-after.png" alt=""/>
-        <div class='caption'> Before </div>
-        <div class='caption'> After</div>
+            <img class="img-long" src="/images/chhs-print-before.png" alt=""/>
+            <img class="img-long" src="/images/chhs-print-after.png" alt=""/>
+            <div class='caption'> Before </div>
+            <div class='caption'> After</div>
        </div>
        <div class='sm-text'>
         Changes highlighted:<br>
@@ -88,14 +88,13 @@
 <style lang="scss">
     .page {
         position: absolute;
-        /* BRUH width: 100%;*/
-        width: 97vw;
+        width: calc(100% - 2rem);
         top: 0;
         left: 0;
+        margin: 0;
         padding: 1rem;
-
+        
         background-image: linear-gradient(#DBDEFF, #F9EDFF, #FFFFFF);
-        background-size: cover;
         background-size: cover;
         background-repeat: no-repeat;
         
@@ -145,7 +144,6 @@
     .img-grid {
         display: grid;
         grid-gap: 2rem;
-        
         padding: 2rem;
 
         grid-template-areas: 
@@ -153,7 +151,7 @@
             "caption caption";
 
         grid-template-columns: repeat(2, 1fr);
-        grid-template-rows: 1fr 0.01fr;
+        grid-template-rows: 0.5fr 0.01fr;
     }
 
     .img {
