@@ -2,8 +2,7 @@
 <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Jura" />
 
 <script type="text/javascript">
-    //import descriptions from '../descriptions.json';
-    const text = "";
+    import '../../app.css'
 </script>
 
 <div class="page"> 
@@ -35,15 +34,15 @@
         <div class='sm-text'>
             The client allowed a lot of freedom in developing a solution, so long as it followed a couple of provided parameters. This freedom meant that I had a lot of flexibility, but that I also had to infer some things on my own. For example: how do I determine if an inspector is “close enough” to the route? The easiest way to do this would be to create a geofence, which is bounded from the centerline from a certain configurable distance, equidistant from the right and left of the pipe. I could then make use of <b>geometry.contains()</b> in ArcGIS Pro to determine whether or not the inspector's location fell within that geofence. Here are some notes I made while constructing the logic for the program:
         </div>
-        <img class="img" src="/images/everline-notes.png" alt=""/>
+        <img class="img-small" src="/images/everline-notes.png" alt=""/>
         <div class = "caption"> Word Document planning implementation methods </div>
-        <img class="img" src="/images/everline-paper.jpg" alt=""/>
+        <img class="img-small" src="/images/everline-paper.jpg" alt=""/>
         <div class = "caption"> Jotting down thoughts on defining data structure, use of ArcGIS Pro geoprocessing tools </div>
 
         <div class='sm-text'>
             The following is a partial pseudocode implementation of Method #1
         </div>
-        <img class="img" src="/images/everline-code.png" alt=""/>
+        <img class="img-small" src="/images/everline-code.png" alt=""/>
         <div class='sm-text'>
             Some edge cases to consider were:<br>
             &emsp;1)&emsp;What if there was an obstacle in the way that affected the inspector’s path?<br>
@@ -52,7 +51,7 @@
         </div>
         <div class='sm-text'> In case 1, obstacles could be determined over time if an inspector's path always fell outside the geofence in a certain pattern, at a certain location. Once obstacles are detected and confirmed, this will be accounted for when determining if the inspector's path was valid or not. Another approach would be to track the inspector's elevation as well (z-axis) which would be another indicator that there is some obstruction on the path. For case 2, we can turn off location and stop collecting data points after the inspector is a certain, configurable distance away from the end of the pipeline. This way a large amount of points falling outside the geofence doesn't affect the validity of the inspection. Regarding case 3, we can implement outlier detection and ensure the GPS technology used is standardized across all devices.</div>
         <div class='md-text'> Implementation </div>
-        <img class="img" src="/images/everline-gif.gif" alt=""/>
+        <img class="img-small" src="/images/everline-gif.gif" alt=""/>
         <div class='md-text'> Special thanks </div>
         <div class='sm-text'> Special thanks to JP Stupfel for being so helpful and resourceful during the implementation process! He had taken the liberty of working through both the client-side and server-side implementations in his own time which sped along the process of handing off the deliverable to the client.</div>
     </div>
@@ -61,151 +60,5 @@
 
 
 <style lang="scss">
-    .page {
-        position: absolute;
-        width: (100% - 2rem);
-        top: 0;
-        left: 0;
-        margin: 0;
-        padding: 1rem;
-        overflow-x: hidden;
-
-        background-image: linear-gradient(#DBDEFF, #F9EDFF, #FFFFFF);
-        background-size: cover;
-        background-repeat: no-repeat;
-        
-        font-family: "Jura";
-
-        & header {
-            display: flex;
-            flex-direction: row;
-            align-items: center;
-            justify-content: space-between;
-            font-size: 22px;
-
-            @media screen and (max-width: 800px) {
-                //background-color: #DBDEFF;
-                //position: fixed;
-            }
-        }
-
-        & .body {
-            padding-top: 1rem;
-            padding-left: 6rem;
-            padding-right: 6rem;
-            text-align: center;
-
-            @media screen and (max-width: 800px) {
-                padding-left: 1rem;
-                padding-right: 1rem;
-            }
-        }
-
-        & footer {
-            height: 10%;
-            text-align: center;
-            color: #3C4770;
-            padding: 1rem;
-        }
-    }
-
-    .logo { 
-        display: flex; 
-        align-items: center;
-
-        & a {
-            & button {
-                & img {
-                    @media screen and (max-width: 600px) {
-                        width: 80px;
-                    }
-                }   
-            }   
-        }
-
-        & .title-text {
-            @media screen and (max-width: 600px) {
-                font-size: 35px;
-            }
-        }
-    }
-
-    .links {
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        width: 400px;
-
-        @media screen and (max-width: 906px) {
-            width: 25%;
-
-            & span {
-                display: none;     
-            }
-        }
-    }
-
-    .link-align {
-        display: flex;
-        align-items: center;
-    }
-
-    .img {
-        width: 60%;
-        height: 100%;
-        border-radius: 20px;
-        
-    }
-
-    .sm-text {
-        font-size: 22px;
-        color: #3C4770;
-        grid-area: text;
-        padding: 2rem;
-        text-align: start;
-    }
-
-    .md-text {
-        font-size: 44px;
-        color: #3C4770;
-        padding: 2rem;
-        text-align: start;
-    }
-
-    .caption {
-        font-size: 22px;
-        color: #3C4770;
-        padding: 2rem;
-        text-align: center;
-    }
-
-    .title-text { 
-        grid-area: title; 
-        font-size: 70px;
-        color: #3C4770;
-        padding-left: 1rem;
-    }
-
-    .home-button {
-        border: none;
-        padding: none;
-        background: none;
-        margin: 0;
-        padding: 0;
-
-        transition: transform .5s ease-in-out;
-        
-        &:hover {
-            cursor: pointer;
-            transform: rotate(360deg);
-        }  
-    }
-
-    @media screen and (max-width: 800px) {
-        .page { padding: none; }
-
-        .title-text { font-size: 50px; }
-
-        .md-text { font-size: 38px; }
-    }
+   
 </style>

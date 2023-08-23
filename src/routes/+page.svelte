@@ -15,12 +15,12 @@
         </div>
         <div class="links">
             <a class="link-align" href="https://storymaps.arcgis.com/stories/69e37ee9b86748c1bfbd3b017b592db0" target="_blank" rel="noreferrer noopener">
-                <img class="img" height= 10% src="/images/storymap.svg" alt=""/>
+                <img class="tile-img" height= 10% src="/images/storymap.svg" alt=""/>
                 <span>Storymap</span>
             </a>
 
             <a class= "link-align" href="https://www.linkedin.com/in/rafa-mondal-4a8899221/" target="_blank" rel="noreferrer noopener">
-                <img class="img" src="/images/linkedin.svg" alt=""/>
+                <img class="tile-img" src="/images/linkedin.svg" alt=""/>
                 <span>LinkedIn</span>
             </a>
         </div>
@@ -28,7 +28,7 @@
     <div class="body">
         <div class="intro-grid"> 
          
-            <div class="title-image"> <img src="/images/intern.gif" class="img" alt=""> </div>
+            <div class="title-image"> <img src="/images/intern.gif" class="tile-img" alt=""> </div>
             <div class="header-text"> 
                 <span> Rafa Mondal’s Software Internship Summer 2023<br></span>
                 <span class="md-text-main">June 6th - August 25th</span>
@@ -38,7 +38,7 @@
 
             <div> 
                 <a href="/wapo-maps">
-                    <button class="tile-button"> <img src="/images/wapo-map.png" class="img" alt=""> </button>
+                    <button class="tile-button"> <img src="/images/wapo-map.png" class="tile-img" alt=""> </button>
                 </a>
 
                 <div class="tile-desc">
@@ -50,7 +50,7 @@
 
             <div> 
                 <a href="/lattice">
-                    <button class="tile-button"> <img src="/images/lattice-new.png" class="img" alt=""> </button>
+                    <button class="tile-button"> <img src="/images/lattice-new.png" class="tile-img" alt=""> </button>
                 </a>
 
                 <div class="tile-desc">
@@ -62,7 +62,7 @@
 
             <div> 
                 <a href="/health-dashboard">
-                    <button class="tile-button"> <img src="/images/chhs-new.png" class="img" alt=""> </button>
+                    <button class="tile-button"> <img src="/images/chhs-new.png" class="tile-img" alt=""> </button>
                 </a>
 
                 <div class="tile-desc">
@@ -74,7 +74,7 @@
 
             <div> 
                 <a href="/calcite">
-                    <button class="tile-button"> <img src="/images/calcite.png" class="img" alt=""> </button>
+                    <button class="tile-button"> <img src="/images/calcite.png" class="tile-img" alt=""> </button>
                 </a>
 
                 <div class="tile-desc">
@@ -86,7 +86,7 @@
 
             <div> 
                 <a href="/pipeline">
-                    <button class="tile-button"> <img src="/images/everline.svg" class="img" alt=""> </button>
+                    <button class="tile-button"> <img src="/images/everline.svg" class="tile-img" alt=""> </button>
                 </a>
 
                 <div class="tile-desc">
@@ -98,7 +98,7 @@
 
             <div> 
                 <a href="/charlotte-timeline">
-                    <button class="tile-button"> <img src="/images/charlotte-ex.png" class="img" alt=""> </button>
+                    <button class="tile-button"> <img src="/images/charlotte-ex.png" class="tile-img" alt=""> </button>
                 </a>
 
                 <div class="tile-desc">
@@ -110,7 +110,7 @@
             
             <div> 
                 <a href="/pothole">
-                    <button class="tile-button"> <img src="/images/pothole.png" class="img" alt=""> </button>
+                    <button class="tile-button"> <img src="/images/pothole.png" class="tile-img" alt=""> </button>
                 </a>
 
                 <div class="tile-desc">
@@ -122,7 +122,7 @@
 
             <div> 
                 <a href="/user-conference">
-                    <button class="tile-button"> <img src="/images/uc.png" class="img" alt=""> </button>
+                    <button class="tile-button"> <img src="/images/uc.png" class="tile-img" alt=""> </button>
                 </a>
 
                 <div class="tile-desc">
@@ -134,7 +134,7 @@
 
             <div> 
                 <a href="/hackathon">
-                    <button class="tile-button"> <img src="/images/group-hackathon-pic.png" class="img" alt=""> </button>
+                    <button class="tile-button"> <img src="/images/group-hackathon-pic.png" class="tile-img" alt=""> </button>
                 </a>
 
                 <div class="tile-desc">

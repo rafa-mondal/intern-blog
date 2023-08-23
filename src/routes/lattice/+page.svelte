@@ -2,11 +2,7 @@
 <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Jura" />
 
 <script type="text/javascript">
-    // document.getElementById("myButton").onclick = function () {
-    //     location.href = "www.yoursite.com";
-    // };
-
-    // https://www.npmjs.com/package/svelte-routing
+    import '../../app.css'
 </script>
 
 <div class="page"> 
@@ -33,7 +29,7 @@
         <div class="md-text">Overview</div>
         <div class='sm-text'>The Career Lattice Viewer was the most extensive project I worked on during my Esri internship. The project is an inner-source tool developed by Esri Professional Services that helps employees track their career development in accordance with the “Career Lattice” developed by Esri HR. This web app is built in React and Node.js and was in development for about a year. I was brought on to wrap up remaining tasks and implement remaining features on the app to prepare for its release August 2023. </div>
         <div class="img-grid"> 
-            <div class='sm-text'>
+            <div class='sm-text-lattice'>
                 The following is an overview on the work I contributed to the app:<br><br>
                 &emsp;✤ Implement responsive design<br>
                 &emsp;✤ Create page animations via styled-components<br>
@@ -46,7 +42,7 @@
                 &emsp;✤ Update “focus area” JSON data<br>
                 &emsp;✤ Design README Banner & additional icons
             </div>
-            <img class="img-small" src="/images/lattice-mini.png" alt=""/>
+            <img class="tile-img" src="/images/lattice-mini.png" alt=""/>
         </div>
         <div class='md-text'> Responsive Design</div>
         <div class="sm-text">Responsive design means designing a display to be compatible with many different screen sizes, such as mobile, tablet, and desktop. I used Chrome DevTools to help simulate different screen sizes and design how components should appear accordingly. I media queried for screen size in the CSS and would shrink down, change layout, abbreviate, or completely hide different elements to streamline the new design.</div>
@@ -75,151 +71,16 @@
 
 
 <style lang="scss">
-    .page {
-        position: absolute;
-        width: (100% - 2rem);
-        top: 0;
-        left: 0;
-        margin: 0;
-        padding: 1rem;
-        overflow-x: hidden;
-
-        background-image: linear-gradient(#DBDEFF, #F9EDFF, #FFFFFF);
-        background-size: cover;
-        background-repeat: no-repeat;
-        
-        font-family: "Jura";
-
-        & header {
-            display: flex;
-            flex-direction: row;
-            align-items: center;
-            justify-content: space-between;
-            font-size: 22px;
-        }
-
-        & .body {
-            padding-top: 1rem;
-            padding-left: 6rem;
-            padding-right: 6rem;
-            text-align: center;
-
-            @media screen and (max-width: 800px) {
-                padding-left: 1rem;
-                padding-right: 1rem;
-            }
-        }
-
-        & footer {
-            height: 10%;
-            text-align: center;
-            color: #3C4770;
-            padding: 1rem;
-        }
-    }
-
     .img-grid {
         display: grid;
         grid-template-areas: "text image";
     }
 
-    .logo { 
-        display: flex; 
-        align-items: center;
-
-        & a {
-            & button {
-                & img {
-                    @media screen and (max-width: 600px) {
-                        width: 80px;
-                    }
-                }   
-            }   
-        }
-
-        & .title-text {
-            @media screen and (max-width: 600px) {
-                font-size: 35px;
-            }
-        }
-    }
-
-    .links {
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        width: 400px;
-
-        @media screen and (max-width: 906px) {
-            width: 25%;
-
-            & span {
-                display: none;     
-            }
-        }
-    }
-
-    .link-align {
-        display: flex;
-        align-items: center;
-    }
-
-    .img {
-        width: 80%;
-        height: 100%;
-        border-radius: 20px;
-    }
-
-
-    .img-small {
-        grid-area: "img";
-        width: 100%;
-        height: 100%;
-        border-radius: 20px;
-    }
-
-    .md-text {
-        font-size: 44px;
-        color: #3C4770;
-        text-align: start;
-        padding: 2rem;
-    }
-
-    .sm-text {
+    .sm-text-lattice {
         grid-area: "text";
         font-size: 22px;
-        color: #3C4770;
+        color: var(--navy-blue);
         text-align: start;
         padding: 2rem;
-    }
-
-    .title-text { 
-        grid-area: title; 
-        font-size: 70px;
-        color: #3C4770;
-        padding-left: 1rem;
-    }
-
-    .home-button {
-        border: none;
-        padding: none;
-        background: none;
-        margin: 0;
-        padding: 0;
-
-        transition: transform .5s ease-in-out;
-        
-        &:hover {
-            cursor: pointer;
-            transform: rotate(360deg);
-        }  
-    }
-
-    @media screen and (max-width: 800px) {
-        .page { padding: none; }
-
-        .title-text { font-size: 50px; }
-
-        .md-text { font-size: 38px; }
     }
 </style>
