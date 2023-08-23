@@ -293,6 +293,12 @@
         & .md-text {
             @media screen and (max-width: 1450px) {
                 font-size: 30px;
+                font-weight: 300;
+            }
+
+            @media screen and (max-width: 600px) {
+                font-size: 22px;
+                font-weight: 300;
             }
         }
     }
@@ -344,7 +350,11 @@
             grid-template-rows: 1fr 0.6fr;
         }
         
-        .header-text { font-size: 40px; }
+        .header-text { 
+            font-size: 40px;
+            text-align: center;
+            font-weight: 600;
+        }
     }
 
     @media screen and (max-width: 800px) {
@@ -356,6 +366,14 @@
         }
 
         .title-text { font-size: 50px; }
+    }
+
+    @media screen and (max-width: 550px) {
+        .header-text { font-size: 30px; }
+    }
+
+    @media screen and (max-width: 400px) {
+        .header-text { font-size: 25px; }
     }
 
 </style>
