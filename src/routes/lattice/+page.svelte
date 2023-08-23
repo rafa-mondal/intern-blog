@@ -107,6 +107,7 @@
             padding-top: 1rem;
             padding-left: 6rem;
             padding-right: 6rem;
+            text-align: center;
 
             @media screen and (max-width: 800px) {
                 padding-left: 1rem;
@@ -223,5 +224,7 @@
         .page { padding: none; }
 
         .title-text { font-size: 50px; }
+
+        .md-text { font-size: 38px; }
     }
 </style>
