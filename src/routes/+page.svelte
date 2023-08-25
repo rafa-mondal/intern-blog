@@ -15,12 +15,12 @@
         </div>
         <div class="links">
             <a class="link-align" href="https://storymaps.arcgis.com/stories/69e37ee9b86748c1bfbd3b017b592db0" target="_blank" rel="noreferrer noopener">
-                <img class="tile-img" height= 10% src="/images/storymap.svg" alt=""/>
+                <img class="icon-img" height= 10% src="/images/storymap.svg" alt=""/>
                 <span>Storymap</span>
             </a>
 
             <a class= "link-align" href="https://www.linkedin.com/in/rafa-mondal-4a8899221/" target="_blank" rel="noreferrer noopener">
-                <img class="tile-img" src="/images/linkedin.svg" alt=""/>
+                <img class="icon-img" src="/images/linkedin.svg" alt=""/>
                 <span>LinkedIn</span>
             </a>
         </div>
@@ -252,6 +252,8 @@
             grid-template-columns: repeat(1, 1fr);
             grid-template-rows: 1fr 0.6fr;
         }
+
+        .lg-text { font-size: 28px; }
     }
 
     @media screen and (max-width: 550px) {
