@@ -9,18 +9,18 @@
     <header>
         <div class=logo> 
             <a href="/">
-                <button class="home-button"> <img src="/images/esri-logo.svg" alt=""/> </button>
+                <button class="home-button"> <img id="esri-logo" src="/images/esri-logo.svg" alt=""/> </button>
             </a>
             <div class="title-text"> Intern Blog </div>
         </div>
         <div class="links">
             <a class="link-align" href="https://storymaps.arcgis.com/stories/69e37ee9b86748c1bfbd3b017b592db0" target="_blank" rel="noreferrer noopener">
-                <img class="img" height= 10% src="/images/storymap.svg" alt=""/>
+                <img class="tile-img" height= 10% src="/images/storymap.svg" alt=""/>
                 <span>Storymap</span>
             </a>
 
             <a class= "link-align" href="https://www.linkedin.com/in/rafa-mondal-4a8899221/" target="_blank" rel="noreferrer noopener">
-                <img class="img" src="/images/linkedin.svg" alt=""/>
+                <img class="tile-img" src="/images/linkedin.svg" alt=""/>
                 <span>LinkedIn</span>
             </a>
         </div>

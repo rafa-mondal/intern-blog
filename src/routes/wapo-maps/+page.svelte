@@ -9,18 +9,18 @@
     <header>
         <div class=logo> 
             <a href="/">
-                <button class="home-button"> <img src="/images/esri-logo.svg" alt=""/> </button>
+                <button class="home-button"> <img id="esri-logo" src="/images/esri-logo.svg" alt=""/> </button>
             </a>
             <div class="title-text"> Intern Blog </div>
         </div>
         <div class="links">
             <a class="link-align" href="https://storymaps.arcgis.com/stories/69e37ee9b86748c1bfbd3b017b592db0" target="_blank" rel="noreferrer noopener">
-                <img class="img" height= 10% src="/images/storymap.svg" alt=""/>
+                <img class="tile-img" height= 10% src="/images/storymap.svg" alt=""/>
                 <span>Storymap</span>
             </a>
 
             <a class= "link-align" href="https://www.linkedin.com/in/rafa-mondal-4a8899221/" target="_blank" rel="noreferrer noopener">
-                <img class="img" src="/images/linkedin.svg" alt=""/>
+                <img class="tile-img" src="/images/linkedin.svg" alt=""/>
                 <span>LinkedIn</span>
             </a>
         </div>
@@ -49,7 +49,7 @@
         <div class='sm-text'>The final step was to put everything together and output the labeled map graphics. Running my script outputs a new directory with subdirectories based on map type, each containing the labeled map series:  </div>
         <img class="img" src="/images/wapo-apt.png" alt=""/>
         <img class="img" src="/images/wapo-sky.png" alt=""/>
-        <div class='sm-text'> I’ve been focusing a lot on website development and front-end work, so a python scripting project was a nice change of pace. It made me remember how much I love automating tasks and working with data, especially when it had tangible real-world benefit (like being used by the Washington Post!!). Special thanks to Gina O’Neil, Josh Peterson, Peter LeCavalier, and Jared Kohler.</div>
+        <div class='sm-text'> I’ve been focusing a lot on website development and front-end work, so a python scripting project was a nice change of pace. It made me remember how much I love automating tasks and working with data, especially when it had tangible real-world benefit (like being used by the Washington Post!!). Special thanks to Gina O’Neil, Josh Peterson, Peter LeCavalier, and Jared Kohler.</div> 
     </div>
     <footer>thank you for reading :)<br><br>contact: rafa.audrija.mondal@gmail.com</footer>
 </div>

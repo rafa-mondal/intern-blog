@@ -86,7 +86,7 @@
 
             <div> 
                 <a href="/pipeline">
-                    <button class="tile-button"> <img src="/images/everline.svg" class="tile-img" alt=""> </button>
+                    <button class="tile-button"> <img src="/images/pipeline.svg" class="tile-img" alt=""> </button>
                 </a>
 
                 <div class="tile-desc">
@@ -145,6 +145,9 @@
             </div>
         </div>
     </div>
+    <button class="back-to-top"> 
+        <img src="/images/arrow.svg" alt=""> 
+    </button>
     <footer>thank you for reading :)<br><br>contact: rafa.audrija.mondal@gmail.com</footer> 
 </div>
 

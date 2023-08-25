@@ -56,8 +56,10 @@
         text-align: center;
 
         @media screen and (max-width: 800px) {
-            padding-left: 1rem;
-            padding-right: 1rem;
+            /*padding-left: 1rem;
+            padding-right: 1rem;*/
+            padding-left: 0rem;
+            padding-right: 0rem;
         }
     }
 
@@ -144,12 +146,29 @@
     }  
 }
 
+.back-to-top {
+    background: none;
+    border: none;
+    display: none;
+}
+
 @media screen and (max-width: 800px) {
     .page { padding: none; }
 
     .title-text { font-size: 50px; }
 
-    .md-text { font-size: 38px; }
+    .sm-text { padding: 1rem; }
+
+    .md-text { 
+        font-size: 38px;
+        padding: 1rem;
+     }
+
+    .back-to-top { 
+        display: block;
+        position: fixed;
+     }
+
 }
 
 @media screen and (max-width: 500px) {
