@@ -2,207 +2,50 @@
 <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Jura" />
 
 <script type="text/javascript">
-    // document.getElementById("myButton").onclick = function () {
-    //     location.href = "www.yoursite.com";
-    // };
-
-    // https://www.npmjs.com/package/svelte-routing
+    import '../../app.css'
 </script>
 
 <div class="page"> 
     <header>
         <div class=logo> 
             <a href="/">
-                <button class="home-button"> <img src="/images/esri-logo.svg" alt=""/> </button>
+                <button class="home-button"> <img id="esri-logo" src="/images/esri-logo.svg" alt=""/> </button>
             </a>
-            <div class="title-text"> Esri Intern Hackathon 2023</div>
+            <div class="title-text"> Intern Blog </div>
         </div>
         <div class="links">
-            <div class="link-align">
-                <a href="https://storymaps.arcgis.com/stories/69e37ee9b86748c1bfbd3b017b592db0" target="_blank" rel="noreferrer noopener">"About me" Storymap</a>
-                <!-- <img class="img" src="src/link.svg" alt=""> -->
-            </div>
-            <div class="link-align">
-                <img class="img" src="/images/linkedin.svg" alt=""/>
-                <a href="https://www.linkedin.com/in/rafa-mondal-4a8899221/" target="_blank" rel="noreferrer noopener">LinkedIn</a>
-            </div>
+            <a class="link-align" href="https://storymaps.arcgis.com/stories/69e37ee9b86748c1bfbd3b017b592db0" target="_blank" rel="noreferrer noopener">
+                <img class="tile-img" height= 10% src="/images/storymap.svg" alt=""/>
+                <span>Storymap</span>
+            </a>
+
+            <a class= "link-align" href="https://www.linkedin.com/in/rafa-mondal-4a8899221/" target="_blank" rel="noreferrer noopener">
+                <img class="tile-img" src="/images/linkedin.svg" alt=""/>
+                <span>LinkedIn</span>
+            </a>
         </div>
     </header>
     <div class="body">
-       Stay tuned!
+        <div class='md-text'>Dawgs on Fire</div>
+        <img class="tile-img" src="/images/hackathon.png" alt=""/>
+        <div class='sm-text'>Esri’s “Weekend of Innovation” Intern Hackathon happens every summer. Interns from across Esri are put into teams and spend a weekend bringing their ideas to life. Unfortunately, the Denver interns were divided. However, this meant my team was a cross-office endeavor from Denver to Charlotte, featuring Peter LeCavalier, Joeseph Earles, Brandy  Ayesu-Danso, and Matthew Woodland. </div>
+        <div class='md-text'>Abstract</div>
+        <div class='sm-text'>“Planning real-time information and evacuation in emergency situations presents a challenge for offices, schools, and other organizations. We plan to build an emergency evacuation application which allows users to streamline evacuation and edit necessary evacuation routes based on new hazards, such as fires blocking doorways, via ArcGIS Online functionality.<br><br>
+            This application would sound an alert to notify users once an emergency is declared in the building. It then displays a real-time map of the building which routes users to the closest available exit. We plan to implement “I have evacuated,” and “I am stuck” buttons that could gather real time information for administrators and rescue crews. The administrator role can declare an emergency, send an alert to registered users, update blocked exits, and access the statistics report after the evacuation. <br><br>
+            This proof-of-concept focuses on fire-based emergencies, but we anticipate this software can be scoped to handle hurricanes, tornados, active shooters, and other emergencies.”
+            </div>
+        <div class='md-text'>Demo Video</div>
+        <video class='img' controls>
+            <source src="images/arcevac.mp4" type=video/mp4>
+        </video>
+        <div class='md-text'>Awards</div>
+        <img class="img-small" src="/images/hackathon-win.jpg" alt=""/>
+        <div class='caption'>Our team, Dawgs on Fire, won the “Best Teamwork” award! </div>
     </div>
     <footer>thank you for reading :)<br><br>contact: rafa.audrija.mondal@gmail.com</footer>
 </div>
 
 
 <style lang="scss">
-    .page {
-        position: absolute;
-        /* BRUH width: 100%;*/
-        width: 97vw;
-        top: 0;
-        left: 0;
-        padding: 1rem;
 
-        background-image: linear-gradient(#DBDEFF, #F9EDFF, #FFFFFF);
-        background-size: cover;
-        background-size: cover;
-        background-repeat: no-repeat;
-        
-        font-family: "Jura";
-
-        & header {
-            display: flex;
-            flex-direction: row;
-            align-items: center;
-            justify-content: space-between;
-
-            /*background-color: rgba(221, 221, 221, 50);*/
-            font-size: 22px;
-        }
-
-        & .body {
-            padding-top: 1rem;
-            padding-left: 6rem;
-            padding-right: 6rem;
-            /*padding-top: 2rem;*/
-            text-align: center;
-        }
-
-        & footer {
-            height: 10%;
-            /*background-color: rgba(221, 221, 221, 50);*/
-            text-align: center;
-            color: #3C4770;
-            padding: 1rem;
-        }
-    }
-
-    .logo { display: flex; }
-
-    .links {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        width: 22%;
-    }
-
-    .link-align {
-        display: flex;
-        align-items: center;
-    }
-
-    .intro-grid {
-        display: grid;
-        grid-gap: 2rem;
-        
-        grid-template-areas: "titleImage titleImage titleText";
-        
-        grid-template-columns: repeat(3, 1fr);
-        grid-template-rows: 1fr;
-    } 
-
-    .tile-grid {
-        display: grid;
-        grid-gap: 2rem;
-        
-        padding-top: 3rem;
-        padding-bottom: 2rem;
-
-        grid-template-areas: 
-            "a   b   c"
-            "one two three";
-
-        grid-template-columns: repeat(3, 1fr);
-        grid-template-rows: 1fr 0.6fr;
-    }
-
-    .title-image { 
-        grid-area: titleImage;
-        /*background-color: rgba(221, 221, 221, 50);*/
-    }
-
-    .img {
-        width: 100%;
-        height: 100%;
-        border-radius: 20px;
-    }
-
-    .lg-text {
-        font-size: 32px;
-        font-weight: 600;
-        color: #3C4770;
-    }
-
-    .md-text {
-        font-size: 44px;
-        color: #3C4770;
-    }
-
-    .sm-text {
-        font-size: 22px;
-        color: #3C4770;
-    }
-
-    .header-text { 
-        grid-area: titleText;
-        font-size: 60px;
-        color: #3C4770;
-        /*background-color: rgba(221, 221, 221, 50);*/
-    }
-
-    .title-text { 
-        grid-area: title; 
-        font-size: 70px;
-        color: #3C4770;
-        padding-left: 1rem;
-        /* background-color: rgba(221, 221, 221, 50); */
-    }
-
-    #a { grid-area: a; }
-
-    #b { grid-area: b; }
-
-    #c { grid-area: c; }
-
-    /*#d { grid-area: d; }
-
-    #e { grid-area: e; }
-
-    #f { grid-area: f; }*/
-
-    .home-button {
-        border: none;
-        padding: none;
-        background: none;
-        margin: 0;
-        padding: 0;
-
-        transition: transform .5s ease-in-out;
-        
-        &:hover {
-            cursor: pointer;
-            transform: rotate(360deg);
-        }  
-    }
-
-    .tile-button {
-        background: none;
-        border: none;
-        border-radius: 20px;
-        aspect-ratio: 1.24;
-
-        /*transition: border-width 0.6s linear;*/
-
-        &:hover {
-            cursor: pointer;
-            border: solid transparent;
-        }
-    }
-
-    .tile-desc {
-        /*background-color: rgba(221, 221, 221, 50);*/
-        aspect-ratio: 1.95;
-        padding: 1rem;
-    }
 </style>

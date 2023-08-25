@@ -1,0 +1,176 @@
+:root {
+    --navy-blue: #3C4770;
+    --lavender: #DBDEFF;
+    --pink: #F9EDFF;
+  }
+
+.sm-text {
+    font-size: 22px;
+    color:  var(--navy-blue);
+    text-align: start;
+    padding: 2rem;
+}
+
+.md-text {
+    font-size: 44px;
+    color:  var(--navy-blue);
+    text-align: start;
+    padding: 2rem;
+}
+
+.caption {
+    grid-area: "caption";
+    font-size: 22px;
+    color: var(--navy-blue);
+    text-align: center;
+    padding: 2rem;
+}
+
+.page {
+    position: absolute;
+    width: (100% - 2rem);
+    top: 0;
+    left: 0;
+    margin: 0;
+    padding: 1rem;
+    overflow-x: hidden;
+
+    background-image: linear-gradient(var(--lavender), var(--pink), white);
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+    font-family: "Jura";
+
+    & header {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        font-size: 22px;
+    }
+
+    & .body {
+        padding-top: 1rem;
+        padding-left: 6rem;
+        padding-right: 6rem;
+        text-align: center;
+
+        @media screen and (max-width: 800px) {
+            /*padding-left: 1rem;
+            padding-right: 1rem;*/
+            padding-left: 0rem;
+            padding-right: 0rem;
+        }
+    }
+
+    & footer {
+        height: 10%;
+        text-align: center;
+        color:  var(--navy-blue);
+        padding: 1rem;
+    }
+}
+
+.title-text { 
+    grid-area: title; 
+    font-size: 70px;
+    color:  var(--navy-blue);
+    padding-left: 1rem;
+
+    @media screen and (max-width: 600px) {
+        font-size: 30px;
+    }
+}
+
+.logo { 
+    display: flex; 
+    align-items: center;
+}
+
+#esri-logo {
+    @media screen and (max-width: 600px) {
+        width: 80px;
+    }
+}
+
+.links {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 400px;
+
+    @media screen and (max-width: 906px) {
+        width: 25%;
+
+        & span {
+            display: none;     
+        }
+    }
+}
+
+.link-align {
+    display: flex;
+    align-items: center;
+}
+
+.tile-img {
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+}
+
+.img {
+    width: 80%;
+    height: 100%;
+    border-radius: 20px;
+}
+
+.img-small {
+    width: 60%;
+    height: 100%;
+    border-radius: 20px; 
+}
+
+.home-button {
+    border: none;
+    padding: none;
+    background: none;
+    margin: 0;
+    padding: 0;
+
+    transition: transform .5s ease-in-out;
+    
+    &:hover {
+        cursor: pointer;
+        transform: rotate(360deg);
+    }  
+}
+
+.back-to-top {
+    background: none;
+    border: none;
+    display: none;
+}
+
+@media screen and (max-width: 800px) {
+    .page { padding: none; }
+
+    .title-text { font-size: 50px; }
+
+    .sm-text { padding: 1rem; }
+
+    .md-text { 
+        font-size: 38px;
+        padding: 1rem;
+     }
+
+    .back-to-top { 
+        display: block;
+        position: fixed;
+     }
+
+}
+
+@media screen and (max-width: 500px) {
+    .title-text { font-size: 30px; }
+}
