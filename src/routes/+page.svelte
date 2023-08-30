@@ -97,8 +97,8 @@
             </div>
 
             <div> 
-                <a href="/charlotte-timeline">
-                    <button class="tile-button"> <img src="/images/charlotte-ex.png" class="tile-img" alt=""> </button>
+                <a href="/timeline">
+                    <button class="tile-button"> <img src="/images/timeline.png" class="tile-img" alt=""> </button>
                 </a>
 
                 <div class="tile-desc">
