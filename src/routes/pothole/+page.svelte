@@ -26,7 +26,7 @@
         </div>
     </header>
     <div class="body">
-       <div class="sm-text">Of all the projects during my internship, this gave me the most exposure to ArcGIS Pro.</div>
+       <div class="sm-text">Of all the projects during my internship, this gave me the most exposure to ArcGIS Pro. Using Oriented Imagery, I was able to detect potholes on real-time road maps, select the affected area under a polygon, then have this layer information feed into a deep learning model for predictive pothole detection.</div>
         <img class="img" src="/images/pothole-view.png" alt=""> 
         <img class="img" src="/images/pothole-pro.png" alt=""> 
     </div>
